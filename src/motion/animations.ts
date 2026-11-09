@@ -15,7 +15,7 @@ export function initAnimations(root: HTMLElement): () => void {
   const seen = new WeakSet<HTMLElement>();
   let heroSeen = false;
   const groups = Array.from(root.querySelectorAll<HTMLElement>(
-    '.results-header, .results-totals, .results-habitual, .audience-header, .audience-cards, .content-header, .contact-header, .contact-formats, .contact-box, .contact-footer',
+    '.results-header, .results-totals, .results-viral, .results-habitual, .audience-header, .audience-cards, .audience-activity, .content-header, .contact-header, .contact-formats, .contact-box, .contact-footer',
   ));
 
   media.add('(prefers-reduced-motion: no-preference)', () => {

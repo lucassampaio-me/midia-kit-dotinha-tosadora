@@ -65,3 +65,16 @@ section{scroll-margin-top:24px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
 
+/* Abas flutuantes do celular: repetem Instagram/TikTok acima do menu inferior. */
+.platform-float{display:none}
+@media(max-width:799px){
+ .platform-float{position:fixed;z-index:49;left:50%;display:flex;gap:4px;width:min(292px,calc(100% - 32px));padding:5px;border:1px solid rgb(99 59 34 / 12%);border-radius:999px;background:var(--cream);color:var(--brown);box-shadow:0 8px 24px rgb(99 59 34 / 18%);opacity:0;visibility:hidden;transform:translate(-50%,12px);transition:opacity .2s ease,transform .2s ease,visibility 0s linear .2s}
+ .platform-float.is-visible{opacity:1;visibility:visible;transform:translate(-50%,0);transition:opacity .2s ease,transform .2s ease,visibility 0s}
+ .platform-float button{display:flex;flex:1;align-items:center;justify-content:center;gap:6px;padding:8px;border:0;border-radius:999px;background:transparent;color:inherit;font-size:14px;font-weight:700;line-height:1.4;white-space:nowrap}
+ .platform-float button[aria-pressed=true]{background:var(--brown);color:var(--cream)}
+ .platform-float button[aria-pressed=true] img{filter:brightness(0) invert(1)}
+ .platform-float img{width:18px;height:18px}
+ .platform-float .audience-tab-icon--light{display:none}
+ .platform-float button:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+}
+@media(max-width:799px) and (prefers-reduced-motion:reduce){.platform-float,.platform-float.is-visible{transition:none;transform:translate(-50%,0)}}
