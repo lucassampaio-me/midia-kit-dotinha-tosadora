@@ -65,7 +65,7 @@ Informações reaproveitadas do catálogo: nome Vitória Dota, atuação como to
 
 O material público apresenta posicionamento, audiência, resultados, formatos e contato. Os preços e as condições são tratados em proposta específica. Não publique automaticamente os valores discutidos na conversa.
 
-Referência interna para a primeira oportunidade: R$ 500 por Reels, incluindo roteiro quando necessário, gravação e edição; R$ 250 por combo de quatro stories, com dois combos no pacote; R$ 250 pela autorização de impulsionamento por 30 dias. Total de R$ 1.250. A republicação do mesmo vídeo no TikTok foi incluída no Reels na composição discutida. Esses valores não constituem tabela permanente.
+Referência interna para a primeira oportunidade: R$ 500 por Reels, incluindo roteiro quando necessário, gravação e edição; R$ 250 por combo de quatro stories; R$ 250 pela autorização de impulsionamento por 30 dias. A proposta enviada à Bubbles (`/orcamento-bubbles`) tem um combo de stories e total de R$ 1.000. Se a marca quiser um segundo combo, o valor sobe R$ 250, para R$ 1.250. A republicação do mesmo vídeo no TikTok foi incluída no Reels na composição discutida. Esses valores não constituem tabela permanente.
 
 A autorização de impulsionamento remunera o uso publicitário do conteúdo. A verba e a operação dos anúncios ficam por conta da marca na composição discutida. Escopo, canais e prazo precisam constar da proposta.
 
