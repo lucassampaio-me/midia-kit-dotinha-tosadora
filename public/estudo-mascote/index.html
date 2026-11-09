@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffeb">
+  <meta name="robots" content="noindex">
+  <title>Dotinha | Um mascote em movimento</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./mascot.js"></script>
+</head>
+<body>
+  <header class="topbar"><a href="/">Dotinha Tosadora<span>Voltar ao mídia kit ↗</span></a><span class="edition">Estudo de movimento · 01</span></header>
+  <main>
+    <div class="intro">
+      <div><p class="eyebrow"><span></span> Pequenos gestos, muita personalidade</p><h1>Um companheiro<br>para cada cantinho.</h1></div>
+      <p class="description">O cachorrinho da Dotinha ganhou vida. Ele passeia pelos cards, faz uma pausa e dá um oi quando você clica nele.</p>
+    </div>
+    <section class="playground" aria-label="Demonstração do mascote animado">
+      <div class="scene-heading"><span class="scene-label">Um passeio pelo universo da Dotinha</span><span class="state"><i></i><span id="state">Preparando o passeio</span></span></div>
+      <div class="scene" id="scene" aria-busy="true">
+        <div class="cards">
+          <article class="card card-care" data-platform><span class="card-number">01 / Cuidado</span><img src="/assets/c8fd427e-5c62-4113-bc4c-5ab2638a222e.svg" alt="" width="32" height="32"><h2>Carinho em cada detalhe.</h2><p>Um espaço para mostrar o cuidado que faz parte da rotina da Dotinha.</p></article>
+          <article class="card card-content" data-platform><span class="card-number">02 / Conteúdo</span><img src="/assets/a31421f0-6e68-4529-8918-0f554c657fa1.svg" alt="" width="32" height="32"><h2>Histórias que aproximam.</h2><p>O universo pet ganha vida nos encontros e nas descobertas do dia a dia.</p></article>
+          <article class="card card-meet" data-platform><span class="card-number">03 / Conexão</span><img src="/assets/fbf42cbc-fa52-45fd-97b9-bd378945cb81.svg" alt="" width="32" height="32"><h2>Vamos criar juntos?</h2><p>Boas ideias começam com uma conversa e um interesse em comum.</p></article>
+        </div>
+        <div class="shadow" id="shadow" aria-hidden="true"></div>
+        <button class="mascot" id="mascot" type="button" aria-label="Dar um oi para o cachorrinho" disabled hidden><canvas id="sprite" width="256" height="288" aria-hidden="true"></canvas><span class="hello" aria-hidden="true">Oi! ♡</span></button>
+      </div>
+      <div class="controls">
+        <div class="actions"><button class="primary" id="pause" type="button" aria-pressed="false" disabled>Pausar passeio</button><button id="greet" type="button" disabled>Dar um carinho <span aria-hidden="true">♡</span></button><button class="restart" id="restart" type="button" disabled>Recomeçar <span aria-hidden="true">↻</span></button></div>
+        <span class="hint">Você também pode clicar no cachorrinho.</span>
+      </div>
+      <p class="feedback" id="feedback" role="status" aria-live="polite">Carregando as poses do personagem…</p>
+    </section>
+    <footer><p><strong>O mesmo personagem, um novo jeito de estar presente.</strong> Este é um primeiro estudo da caminhada e da reação ao clique.</p><p>O passeio pausa quando você sai desta área. A preferência por movimento reduzido do dispositivo também é respeitada.</p></footer>
+  </main>
+</body>
+</html>

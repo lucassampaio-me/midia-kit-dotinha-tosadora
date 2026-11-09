@@ -1,0 +1,23 @@
+{
+  "reference_node": "1:1045",
+  "stage": "Estudo 01",
+  "vertices": 12756,
+  "triangles": 22708,
+  "bones": 11,
+  "clips": [
+    {
+      "name": "Dotinha_Idle",
+      "duration_seconds": 3
+    },
+    {
+      "name": "Dotinha_Walk",
+      "duration_seconds": 1
+    },
+    {
+      "name": "Dotinha_Jump",
+      "duration_seconds": 1.6666666666666667
+    }
+  ],
+  "web_asset": "public/models/dotinha-study-01.glb",
+  "integration": "Pendente. Estudo visual e animações, sem controles de jogo."
+}

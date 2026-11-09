@@ -1,0 +1,272 @@
+const imgVideo0 = "https://www.figma.com/api/mcp/asset/cb21d588-96e4-4690-abe1-467af41842c7.png";
+const imgVideo1 = "https://www.figma.com/api/mcp/asset/ebd3de7f-1f3b-4dae-b236-8a04ad5ddc57.png";
+const imgVideo2 = "https://www.figma.com/api/mcp/asset/070bebf7-8a89-4f36-9a00-0a7d4192d0ca.png";
+const imgTrilhaCircular = "https://www.figma.com/api/mcp/asset/c26f18d1-3971-4df5-a2c1-161e17f1e60b.svg";
+const imgProgressoCircular = "https://www.figma.com/api/mcp/asset/75a184fb-f40b-4f2e-b090-5fb098ef763d.svg";
+const imgPeloOriginalCantoSuperior = "https://www.figma.com/api/mcp/asset/a50bb4a5-48f1-480a-ae32-6a5944762414.svg";
+const imgPeloOriginalRecorteMobile = "https://www.figma.com/api/mcp/asset/625f7940-04a1-4ca2-a089-6b2767df50b1.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/4b07d533-8cb7-42ff-98b0-e40fe019c6ff.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/3eab95f5-5bc8-4b56-88ec-eb6681be400d.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/d8d289fa-a6a6-406e-bdd9-58d6fc9d4049.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/efcea0e3-b83a-4cf0-831a-34390485b391.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/1b4a70d5-55c4-4ac4-91a1-23b0dd1c8d17.svg";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/3f97c3d9-acbf-4644-9ca0-bb26004a821b.svg";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/8b91614a-d496-4396-ae4e-6e99246a63ea.svg";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/9b1039e0-f85e-45a6-bbad-03e8802a3d81.svg";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/4f1108d3-d215-4c78-abce-179f106457aa.svg";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/2dc62f54-f9fc-46ce-8d67-4c54d7901e5b.svg";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/f7310491-f8c4-41b0-b3bf-0c3203141cb2.svg";
+const imgVector8 = "https://www.figma.com/api/mcp/asset/4de22dcf-7e73-48f1-9360-d5b2738b2721.svg";
+const imgVector9 = "https://www.figma.com/api/mcp/asset/2fda4f67-5aa7-4725-9c3d-9da2897e7e3e.svg";
+const imgVector10 = "https://www.figma.com/api/mcp/asset/1b74a975-aea9-4c6c-8c34-3b7f0c5d0b76.svg";
+const imgVector11 = "https://www.figma.com/api/mcp/asset/ce3e2c93-7afc-4e00-b945-c12b7f70501a.svg";
+const imgVector12 = "https://www.figma.com/api/mcp/asset/b98e60ba-069b-4dea-839b-ec0ba31df0d6.svg";
+const imgVector13 = "https://www.figma.com/api/mcp/asset/f7ac4061-6ef6-4f7a-be46-d8be498ee3ff.svg";
+const imgVector14 = "https://www.figma.com/api/mcp/asset/750a5d79-98d1-4ec0-9584-c8c507144155.svg";
+const imgVector15 = "https://www.figma.com/api/mcp/asset/9ef6e9c0-ef20-4e64-8387-4edced252c2b.svg";
+const imgVector16 = "https://www.figma.com/api/mcp/asset/0c951348-d4ae-40c0-b66c-1d23ff57ec23.svg";
+const imgVector17 = "https://www.figma.com/api/mcp/asset/9d79d0e3-d14c-4eee-88c9-d38b34f4ce0c.svg";
+const imgVector18 = "https://www.figma.com/api/mcp/asset/c332d0ba-d35d-43a3-9e88-8befbd69dbb7.svg";
+const imgVector19 = "https://www.figma.com/api/mcp/asset/9f12da5d-567f-44c8-b377-ea13e07baf00.svg";
+const imgPhosphorChartLineUpDuotone = "https://www.figma.com/api/mcp/asset/a3d72aa2-10f2-491d-9230-1566f3ad81ee.svg";
+const imgPhosphorUsersDuotone = "https://www.figma.com/api/mcp/asset/39daa180-ec23-49cd-938f-894cda1ed4eb.svg";
+const imgPhosphorStackDuotone = "https://www.figma.com/api/mcp/asset/f677fd63-1820-49ca-befa-8ec00e936561.svg";
+const imgPhosphorHandshakeDuotone = "https://www.figma.com/api/mcp/asset/dc2f6e52-8763-4d68-9245-68654579e1fb.svg";
+const imgTituloRaytonBrinkCoverMobile = "https://www.figma.com/api/mcp/asset/7281dbe4-761d-4219-be5e-5042f43fbb8a.svg";
+const imgPhosphorScissorsDuotone = "https://www.figma.com/api/mcp/asset/d4ab3f5a-e485-4f0f-9b99-e77b30f08959.svg";
+const imgPhosphorPawPrintDuotone = "https://www.figma.com/api/mcp/asset/2e677c5b-b122-4362-abee-34c24b06bf88.svg";
+const imgPhosphorHeartDuotone = "https://www.figma.com/api/mcp/asset/f80133fe-7669-4f13-8c19-7d56e2a37fc8.svg";
+
+type DotinhaMobileHeroAutomatico4SProps = {
+  className?: string;
+  ativo?: "1";
+  progresso?: "Início";
+};
+
+function DotinhaMobileHeroAutomatico4S({ className, ativo = "1", progresso = "Início" }: DotinhaMobileHeroAutomatico4SProps) {
+  return (
+    <div className={className || "h-[450px] overflow-clip relative w-[374px]"} data-node-id="35:324">
+      <div className="absolute h-[450px] left-[24px] overflow-clip top-0 w-[2048px]" data-node-id="35:325" data-name="Trilha de vídeos">
+        <div className="absolute h-[412.444px] left-0 rounded-[24px] top-0 w-[232px]" data-node-id="35:326" data-name="Vídeo 0">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo0} />
+        </div>
+        <div className="absolute h-[412.444px] left-[256px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:327" data-name="Vídeo 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo1} />
+        </div>
+        <div className="absolute h-[412.444px] left-[512px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:328" data-name="Vídeo 2">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo2} />
+        </div>
+        <div className="absolute h-[412.444px] left-[768px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:329" data-name="Vídeo 3">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo0} />
+        </div>
+        <div className="absolute h-[412.444px] left-[1024px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:330" data-name="Vídeo 4">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo1} />
+        </div>
+        <div className="absolute h-[412.444px] left-[1280px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:331" data-name="Vídeo 5">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo2} />
+        </div>
+        <div className="absolute h-[412.444px] left-[1536px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:332" data-name="Vídeo 6">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo0} />
+        </div>
+        <div className="absolute h-[412.444px] left-[1792px] opacity-72 rounded-[24px] top-[36px] w-[232px]" data-node-id="35:333" data-name="Vídeo 7">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgVideo1} />
+        </div>
+      </div>
+      <div className="absolute bg-[#ffffeb] left-[192px] overflow-clip rounded-[999px] size-[52px] top-[348.44px]" data-node-id="35:334" data-name="Progresso do item ativo | 4s">
+        <div className="absolute left-[4px] size-[44px] top-[4px]" data-node-id="35:335" data-name="Trilha circular">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrilhaCircular} />
+        </div>
+        <div className="absolute left-[4px] size-[44px] top-[4px]" data-node-id="35:336" data-name="Progresso circular">
+          <div className="absolute bottom-[93.5%] left-1/2 right-[49.95%] top-0">
+            <img alt="" className="block max-w-none size-full" src={imgProgressoCircular} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['DM_Sans:Bold'] font-bold leading-[normal] left-[17px] text-[#633b22] text-[13px] top-[17px] whitespace-nowrap" data-node-id="35:337" style={{ fontVariationSettings: '"opsz" 14' }}>
+          4s
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function Component01Apresentacao() {
+  return (
+    <div className="bg-[var(--dotinha-cream,#ffffeb)] content-stretch flex flex-col items-start p-[8px] relative size-full" data-node-id="35:156" data-name="01 | Apresentação">
+      <div className="bg-[var(--dotinha-soft,#f5e7dc)] content-stretch flex flex-col gap-[28px] items-center overflow-clip pb-[32px] pt-[24px] relative rounded-[28px] shrink-0 w-[374px]" data-node-id="35:157" data-name="Hero | Card arredondado">
+        <div className="absolute h-[327.765px] left-[240px] top-[-246px] w-[320px]" data-node-id="35:432" data-name="Pelo original | Canto superior">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPeloOriginalCantoSuperior} />
+        </div>
+        <div className="absolute h-[348.346px] left-[-150px] overflow-clip top-[1239px] w-[340px]" data-node-id="35:429" data-name="Pelo original | Recorte mobile">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPeloOriginalRecorteMobile} />
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-[326px]" data-node-id="35:158" data-name="Marca e navegação">
+          <div className="h-[91px] overflow-clip relative shrink-0 w-[126px]" data-node-id="35:159" data-name="Logo original | Mobile">
+            <div className="absolute contents inset-[0_0_0.67%_0]" data-node-id="35:270" data-name="Clip path group">
+              <div className="absolute contents inset-[0_0_0.84%_0]" data-node-id="35:160" data-name="Group">
+                <div className="absolute contents inset-[0_23.12%_30.86%_14.66%]" data-node-id="35:247" data-name="Mask group">
+                  <div className="absolute inset-[0_23.12%_-10.49%_14.66%] mask-position-[-18.466px_0px,_0px_0px] mask-size-[126px_90.391px,_78.405px_62.919px]" data-node-id="35:161" style={{ maskImage: `url("${imgGroup}"), url("${imgGroup1}")` }} data-name="Group">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                  </div>
+                </div>
+                <div className="absolute inset-[33.82%_46.48%_59.66%_42.71%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-53.808px_-30.779px] mask-size-[126px_90.391px]" data-node-id="35:248" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+                </div>
+                <div className="absolute inset-[30.24%_52.69%_67.99%_44.17%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-55.649px_-27.523px] mask-size-[126px_90.391px]" data-node-id="35:249" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+                </div>
+                <div className="absolute inset-[29.58%_50.42%_64.92%_43.49%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-54.792px_-26.922px] mask-size-[126px_90.391px]" data-node-id="35:250" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+                </div>
+                <div className="absolute inset-[30.48%_53.01%_68.4%_44.64%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-56.247px_-27.739px] mask-size-[126px_90.391px]" data-node-id="35:251" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                </div>
+                <div className="absolute inset-[93.47%_25.55%_0.94%_70.96%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-89.414px_-85.062px] mask-size-[126px_90.391px]" data-node-id="35:252" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                </div>
+                <div className="absolute inset-[93.47%_32.15%_0.94%_65.15%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-82.085px_-85.062px] mask-size-[126px_90.391px]" data-node-id="35:253" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+                </div>
+                <div className="absolute inset-[93.38%_38.2%_0.84%_57.82%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-72.849px_-84.975px] mask-size-[126px_90.391px]" data-node-id="35:254" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+                </div>
+                <div className="absolute inset-[93.47%_45.38%_0.94%_51.31%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-64.645px_-85.062px] mask-size-[126px_90.391px]" data-node-id="35:255" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                </div>
+                <div className="absolute inset-[93.47%_51.95%_0.94%_44.57%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-56.158px_-85.062px] mask-size-[126px_90.391px]" data-node-id="35:256" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+                </div>
+                <div className="absolute inset-[93.38%_58.52%_0.84%_38.66%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-48.718px_-84.975px] mask-size-[126px_90.391px]" data-node-id="35:257" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+                </div>
+                <div className="absolute inset-[93.38%_64.51%_0.84%_31.51%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-39.7px_-84.975px] mask-size-[126px_90.391px]" data-node-id="35:258" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector10} />
+                </div>
+                <div className="absolute inset-[93.47%_71.37%_0.94%_25.73%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-32.425px_-85.062px] mask-size-[126px_90.391px]" data-node-id="35:259" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector11} />
+                </div>
+                <div className="absolute inset-[60.22%_17.18%_13.1%_69.28%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-87.294px_-54.801px] mask-size-[126px_90.391px]" data-node-id="35:260" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector12} />
+                </div>
+                <div className="absolute inset-[65.31%_0_10.69%_84.84%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-106.893px_-59.428px] mask-size-[126px_90.391px]" data-node-id="35:261" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector13} />
+                </div>
+                <div className="absolute inset-[63.74%_33.14%_13.1%_53.37%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-67.249px_-58.006px] mask-size-[126px_90.391px]" data-node-id="35:262" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector14} />
+                </div>
+                <div className="absolute inset-[59.63%_55.56%_12.62%_33.16%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-41.781px_-54.266px] mask-size-[126px_90.391px]" data-node-id="35:263" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector15} />
+                </div>
+                <div className="absolute inset-[67.48%_49.04%_13.1%_45.26%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-57.033px_-61.408px] mask-size-[126px_90.391px]" data-node-id="35:264" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector16} />
+                </div>
+                <div className="absolute inset-[58.84%_48.62%_33.43%_45.64%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-57.51px_-53.542px] mask-size-[126px_90.391px]" data-node-id="35:265" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector17} />
+                </div>
+                <div className="absolute inset-[59.71%_84.16%_13.1%_0] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_-54.334px] mask-size-[126px_90.391px]" data-node-id="35:266" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector18} />
+                </div>
+                <div className="absolute inset-[65.29%_67.06%_11.33%_17.66%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-22.252px_-59.415px] mask-size-[126px_90.391px]" data-node-id="35:267" style={{ maskImage: `url("${imgGroup}")` }} data-name="Vector">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector19} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[var(--dotinha-cream,#ffffeb)] content-stretch cursor-pointer flex gap-[4px] items-start overflow-clip p-[6px] relative rounded-[28px] shrink-0 w-[326px]" data-node-id="35:271" data-name="Navegação | Atalhos mobile">
+            <button className="content-stretch flex flex-col gap-[4px] items-center overflow-clip px-[6px] py-[8px] relative rounded-[22px] shrink-0 w-[75.5px]" data-node-id="35:272" data-name="Ir para Resultados">
+              <div className="relative shrink-0 size-[20px]" data-node-id="35:273" data-name="Phosphor / chart-line-up / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorChartLineUpDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[11.5px] text-center w-[63.5px]" data-node-id="35:276" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Resultados
+              </p>
+            </button>
+            <button className="content-stretch flex flex-col gap-[4px] items-center overflow-clip px-[6px] py-[8px] relative rounded-[22px] shrink-0 w-[75.5px]" data-node-id="35:277" data-name="Ir para Público">
+              <div className="relative shrink-0 size-[20px]" data-node-id="35:278" data-name="Phosphor / users / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorUsersDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[11.5px] text-center w-[63.5px]" data-node-id="35:281" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Público
+              </p>
+            </button>
+            <button className="content-stretch flex flex-col gap-[4px] items-center overflow-clip px-[6px] py-[8px] relative rounded-[22px] shrink-0 w-[75.5px]" data-node-id="35:282" data-name="Ir para Conteúdos">
+              <div className="relative shrink-0 size-[20px]" data-node-id="35:283" data-name="Phosphor / stack / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorStackDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[11.5px] text-center w-[63.5px]" data-node-id="35:286" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Conteúdos
+              </p>
+            </button>
+            <button className="bg-[var(--dotinha-brown,#633b22)] content-stretch flex flex-col gap-[4px] items-center overflow-clip px-[6px] py-[8px] relative rounded-[22px] shrink-0 w-[75.5px]" data-node-id="35:287" data-name="Ir para Parcerias">
+              <div className="relative shrink-0 size-[20px]" data-node-id="35:288" data-name="Phosphor / handshake / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorHandshakeDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[11.5px] text-center w-[63.5px]" data-node-id="35:291" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Parcerias
+              </p>
+            </button>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] items-start overflow-clip relative shrink-0 w-[326px]" data-node-id="35:292" data-name="Apresentação | Conteúdo atual">
+          <div className="h-[44px] relative shrink-0 w-[326px]" data-node-id="35:293" data-name="Título Rayton Brink | cover | Mobile">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTituloRaytonBrinkCoverMobile} />
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] min-w-full relative shrink-0 text-[#633b22] text-[22px] w-[min-content]" data-node-id="35:305" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Tosadora profissional e criadora de conteúdo
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] min-w-full relative shrink-0 text-[#756459] text-[17px] w-[min-content]" data-node-id="35:306" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Sou a Vitória Dota, a Dotinha. Tenho 5 anos de experiência com banho e tosa e compartilho minha rotina, os cuidados e as descobertas de quem trabalha com animais.
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] min-w-full relative shrink-0 text-[#756459] text-[17px] w-[min-content]" data-node-id="35:307" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Minha vivência com diferentes raças, portes e pelagens traz contexto para apresentar produtos e marcas dentro de uma rotina real de cuidado.
+          </p>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[326px]" data-node-id="35:308" data-name="Pilares | Lista com ícones">
+            <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-[326px]" data-node-id="35:309" data-name="Rotina de banho e tosa, do início ao fim.">
+              <div className="relative shrink-0 size-[24px]" data-node-id="35:310" data-name="Phosphor / scissors / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorScissorsDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[290px]" data-node-id="35:313" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Rotina de banho e tosa, do início ao fim.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-[326px]" data-node-id="35:314" data-name="Cuidados com pets, com atenção aos detalhes.">
+              <div className="relative shrink-0 size-[24px]" data-node-id="35:315" data-name="Phosphor / paw-print / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorPawPrintDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[290px]" data-node-id="35:318" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Cuidados com pets, com atenção aos detalhes.
+              </p>
+            </div>
+            <div className="content-stretch flex gap-[12px] items-start overflow-clip relative shrink-0 w-[326px]" data-node-id="35:319" data-name="Vida de tosadora, com técnica e personalidade.">
+              <div className="relative shrink-0 size-[24px]" data-node-id="35:320" data-name="Phosphor / heart / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorHeartDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[290px]" data-node-id="35:323" style={{ fontVariationSettings: '"opsz" 14' }}>
+                Vida de tosadora, com técnica e personalidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <DotinhaMobileHeroAutomatico4S className="h-[450px] overflow-clip relative shrink-0 w-[374px]" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Dotinha / Mobile / Hero automático · 4s
+**Node ID:** 35:408
+
+Três vídeos em ciclo. O círculo progride por quatro segundos e, ao concluir, o próximo vídeo assume o foco. Estados inicial/final do progresso para cada item. Capas provisórias.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,239 @@
+.results {
+  background: var(--cream);
+  color: var(--brown);
+  padding-block: 88px;
+}
+.results-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.results-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  gap: 24px;
+}
+.results-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  min-width: 0;
+  flex: 1;
+}
+.results-title {
+  font-size: 61.2px;
+  width: 645.232px;
+  max-width: 100%;
+}
+.results-period {
+  font-size: 21.6px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.results-header > .platform-tabs {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  border: 0;
+  background: rgba(99, 59, 34, .09);
+}
+.results-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+.results-totals {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.results-habitual {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.results-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 27px;
+  border-radius: 25.2px;
+  min-width: 0;
+}
+.results-card--peach { background: var(--peach); }
+.results-card--soft { background: var(--soft); }
+.results-card--pink { background: var(--pink); color: var(--cream); }
+.results-card--brown { background: var(--brown); color: var(--cream); }
+.results-card-label {
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  font-size: inherit;
+}
+.results-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(99, 59, 34, .07);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 100%;
+}
+.results-pill img {
+  width: 22px;
+  height: 22px;
+  flex: none;
+}
+.results-total {
+  font-size: 48.6px;
+  font-weight: 700;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.results-total-description {
+  font-size: 17.1px;
+  line-height: 1.3;
+}
+.results-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+}
+.results-card--habitual .results-pill {
+  background: rgba(255, 255, 235, .16);
+  color: var(--cream);
+}
+.results-habitual-value {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.results-habitual-description {
+  font-size: 19.8px;
+  line-height: 1.3;
+}
+.results-method-note,
+.results-source {
+  font-size: 15.3px;
+  line-height: 1.3;
+}
+@media (min-width: 800px) and (max-width: 1199px) {
+  .results-header {
+    flex-wrap: wrap;
+  }
+  .results-intro {
+    flex-basis: 100%;
+  }
+  .results-period {
+    white-space: normal;
+  }
+  .results-header > .platform-tabs {
+    margin-left: auto;
+  }
+  .results-card {
+    padding: 22px;
+  }
+  .results-total {
+    font-size: 38px;
+  }
+  .results-habitual-value {
+    font-size: 29px;
+  }
+}
+@media (max-width: 799px) {
+  .results {
+    padding-block: 56px;
+  }
+  .results-inner {
+    gap: 20px;
+  }
+  .results-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+  .results-intro {
+    gap: 16px;
+    width: 100%;
+  }
+  .results-title {
+    font-size: 44px;
+    width: 342px;
+    max-width: 100%;
+  }
+  .results-period {
+    white-space: normal;
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .results-header > .platform-tabs {
+    width: min(292px, 100%);
+  }
+  .results-panel {
+    gap: 20px;
+  }
+  .results-totals,
+  .results-habitual {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  .results-card {
+    padding: 24px;
+    gap: 14px;
+  }
+  .results-total {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+  .results-total-description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  .results-card-tags {
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+  .results-card--habitual .results-pill {
+    font-size: 12px;
+  }
+  .results-habitual-value {
+    font-size: 28px;
+    letter-spacing: -.25px;
+    line-height: 1.4;
+  }
+  .results-habitual-description {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  .results-method-note,
+  .results-source {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 374px) {
+  .results-card-tags {
+    flex-wrap: wrap;
+  }
+  .results-card {
+    padding: 20px;
+  }
+  .results-total {
+    font-size: 38px;
+  }
+  .results-habitual-value {
+    overflow-wrap: anywhere;
+  }
+}
+

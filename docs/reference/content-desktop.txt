@@ -1,0 +1,118 @@
+const imgVideoLateral2 = "https://www.figma.com/api/mcp/asset/6547dd9c-7324-45ba-a55e-ba77550ce495.png";
+const imgVideoLateral1 = "https://www.figma.com/api/mcp/asset/01297b99-3913-4145-83e1-e09cdfb2e605.png";
+const imgCapaEmFoco916 = "https://www.figma.com/api/mcp/asset/72e77f63-2eab-4747-be4d-495bf9eaef93.png";
+const imgPhosphorArrowLeftDuotone = "https://www.figma.com/api/mcp/asset/4053a7cf-f68e-439e-8e68-644304cf80ec.svg";
+const imgPhosphorArrowRightDuotone = "https://www.figma.com/api/mcp/asset/3b534a5a-d690-4e22-9d65-a90f0d389fa4.svg";
+const imgPontoDeCor = "https://www.figma.com/api/mcp/asset/7176ba77-d520-440f-85a9-d49fab877222.svg";
+const imgLetteringRaytonBrinkContent = "https://www.figma.com/api/mcp/asset/20e753f5-992f-48cb-9e17-0bca0870a31e.svg";
+
+type DotinhaConteudosEmFocoProps = {
+  className?: string;
+  foco?: "Bastidores do cuidado";
+};
+
+function DotinhaConteudosEmFoco({ className, foco = "Bastidores do cuidado" }: DotinhaConteudosEmFocoProps) {
+  return (
+    <div className={className || "h-[580px] overflow-clip relative w-[1440px]"} data-node-id="20:81">
+      <button className="absolute block cursor-pointer h-[302.222px] left-[-125px] opacity-32 rounded-[var(--dotinha-radius,24px)] top-[96px] w-[170px]" data-node-id="20:82" data-name="Vídeo lateral -2">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--dotinha-radius,24px)] size-full" src={imgVideoLateral2} />
+      </button>
+      <button className="absolute block cursor-pointer h-[400px] left-[65px] opacity-62 rounded-[var(--dotinha-radius,24px)] top-[40px] w-[225px]" data-node-id="20:83" data-name="Vídeo lateral -1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--dotinha-radius,24px)] size-full" src={imgVideoLateral1} />
+      </button>
+      <button className="absolute block cursor-pointer h-[400px] left-[1150px] opacity-62 rounded-[var(--dotinha-radius,24px)] top-[40px] w-[225px]" data-node-id="20:84" data-name="Vídeo lateral 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--dotinha-radius,24px)] size-full" src={imgVideoLateral2} />
+      </button>
+      <button className="absolute block cursor-pointer h-[302.222px] left-[1395px] opacity-32 rounded-[var(--dotinha-radius,24px)] top-[96px] w-[170px]" data-node-id="20:85" data-name="Vídeo lateral 2">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--dotinha-radius,24px)] size-full" src={imgVideoLateral1} />
+      </button>
+      <div className="absolute content-stretch flex h-[480px] items-center left-[365px] overflow-clip top-0 w-[710px]" data-node-id="20:86" data-name="Conteúdo em foco">
+        <div className="h-[480px] mr-[-20px] relative rounded-[var(--dotinha-radius,24px)] shrink-0 w-[270px]" data-node-id="20:87" data-name="Capa em foco | 9:16">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--dotinha-radius,24px)] size-full" src={imgCapaEmFoco916} />
+        </div>
+        <div className="bg-[var(--dotinha-soft,#f5e7dc)] content-stretch flex flex-col gap-[12px] items-start overflow-clip p-[var(--dotinha-padding,24px)] relative rounded-[24px] shrink-0 w-[460px]" data-node-id="20:88" data-name="Card interno | Texto e dados">
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[26px] text-[color:var(--dotinha-brown,#633b22)] w-[412px]" data-node-id="20:89" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Bastidores do cuidado
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[18px] text-[color:var(--dotinha-brown,#633b22)] w-[412px]" data-node-id="20:90" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Minha rotina de trabalho mostra os cuidados e os detalhes que fazem parte do banho e da tosa.
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[17px] text-[color:var(--dotinha-brown,#633b22)] w-[412px]" data-node-id="20:91" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [Resultado da publicação]
+          </p>
+          <div className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[15px] text-[color:var(--dotinha-brown,#633b22)] w-[412px]" data-node-id="20:92" style={{ fontVariationSettings: '"opsz" 14' }}>
+            <p className="leading-[1.4] mb-0">Publicado em [data] · Acumulado até [data]</p>
+            <p className="leading-[1.4]">[Orgânico / parceria]</p>
+          </div>
+          <button className="bg-[var(--dotinha-brown,#633b22)] content-stretch cursor-pointer flex flex-col items-start overflow-clip px-[var(--dotinha-padding,24px)] py-[12px] relative rounded-[14px] shrink-0 w-[220px]" data-node-id="20:93" data-name="Visualizar vídeo">
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[17px] text-[color:var(--dotinha-cream,#ffffeb)] text-center w-[172px]" data-node-id="20:94" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Visualizar vídeo
+            </p>
+          </button>
+        </div>
+      </div>
+      <button className="absolute bg-[var(--dotinha-soft,#f5e7dc)] content-stretch cursor-pointer flex items-center justify-center left-[606px] overflow-clip rounded-[999px] size-[48px] top-[508px]" data-node-id="20:95" data-name="Anterior">
+        <div className="relative shrink-0 size-[24px]" data-node-id="26:305" data-name="Phosphor / arrow-left / duotone">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorArrowLeftDuotone} />
+        </div>
+      </button>
+      <button className="absolute bg-[var(--dotinha-soft,#f5e7dc)] content-stretch cursor-pointer flex items-center justify-center left-[786px] overflow-clip rounded-[999px] size-[48px] top-[508px]" data-node-id="20:97" data-name="Próximo">
+        <div className="relative shrink-0 size-[24px]" data-node-id="26:308" data-name="Phosphor / arrow-right / duotone">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorArrowRightDuotone} />
+        </div>
+      </button>
+      <div className="absolute content-stretch flex gap-[8px] items-center justify-center left-[678px] overflow-clip top-[527px] w-[84px]" data-node-id="26:311" data-name="Paginação por foco">
+        <div className="bg-[#633b22] h-[8px] relative rounded-[999px] shrink-0 w-[28px]" data-node-id="26:312" data-name="Indicador ativo" />
+        <button className="bg-[rgba(194,116,132,0.4)] block cursor-pointer relative rounded-[999px] shrink-0 size-[8px]" data-node-id="26:313" data-name="Indicador" />
+        <button className="bg-[rgba(194,116,132,0.4)] block cursor-pointer relative rounded-[999px] shrink-0 size-[8px]" data-node-id="26:315" data-name="Indicador" />
+      </div>
+    </div>
+  );
+}
+
+export default function Component04ConteudosEmDestaque() {
+  return (
+    <div className="bg-[#ffffeb] content-stretch flex flex-col gap-[32px] items-center py-[88px] relative size-full" data-node-id="13:2" data-name="04 | Conteúdos em destaque">
+      <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[1312px]" data-node-id="13:3" data-name="Introdução dos conteúdos">
+        <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="26:178" data-name="Label da seção | CONTEÚDO">
+          <div className="relative shrink-0 size-[9px]" data-node-id="26:179" data-name="Ponto de cor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPontoDeCor} />
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[14px] w-[300px]" data-node-id="26:180" style={{ fontVariationSettings: '"opsz" 14' }}>
+            CONTEÚDO
+          </p>
+        </div>
+        <div className="h-[93.6px] overflow-clip relative shrink-0 w-[614.952px]" data-node-id="13:5" data-name="Um pouco do meu universo | Rayton vetorial">
+          <div className="absolute h-[93.6px] left-0 top-0 w-[614.952px]" data-node-id="13:6" data-name="Lettering Rayton Brink | content">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLetteringRaytonBrinkContent} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[22px] w-[1150px]" data-node-id="13:27" style={{ fontVariationSettings: '"opsz" 14' }}>
+          Experiência profissional, cuidado e personalidade em diferentes histórias.
+        </p>
+      </div>
+      <DotinhaConteudosEmFoco className="h-[580px] overflow-clip relative shrink-0 w-[1440px]" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Dotinha / title: Font(family: "DM Sans", style: Bold, size: 26, weight: 700, lineHeight: 1.399999976158142, letterSpacing: 0), Dotinha / body: Font(family: "DM Sans", style: Regular, size: 18, weight: 400, lineHeight: 1.399999976158142, letterSpacing: 0), Dotinha / button: Font(family: "DM Sans", style: Bold, size: 17, weight: 700, lineHeight: 1.399999976158142, letterSpacing: 0), Dotinha / label: Font(family: "DM Sans", style: Regular, size: 15, weight: 400, lineHeight: 1.399999976158142, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Dotinha / Conteúdos em foco
+**Node ID:** 20:138
+
+Carrossel circular com foco central. Escala e opacidade diminuem com a distância. Controles e capas laterais alteram o foco; o botão abre o modal correspondente.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

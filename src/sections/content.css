@@ -1,0 +1,208 @@
+.content {
+  background: var(--cream);
+  color: var(--brown);
+  padding-block: 88px;
+}
+.content-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.content-title {
+  font-size: 72px;
+  width: 614.952px;
+  max-width: 100%;
+}
+.content-introduction {
+  font-size: 22px;
+  line-height: 1.4;
+  max-width: 1150px;
+}
+.content-stage {
+  position: relative;
+  overflow: clip;
+  width: 100%;
+  min-height: 580px;
+  padding-bottom: 24px;
+}
+.content-carousel {
+  width: 100%;
+  height: 480px;
+  position: relative;
+  touch-action: pan-y;
+}
+.content-slide {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  width: 710px;
+  height: 480px;
+  transform-origin: left top;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.content-cover {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  width: 270px;
+  height: 480px;
+  aspect-ratio: 9 / 16;
+  border-radius: 24px;
+  flex: none;
+  position: relative;
+  pointer-events: auto;
+}
+.content-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.content-card-reveal {
+  position: relative;
+  z-index: 1;
+  flex: none;
+  margin-left: -20px;
+  overflow: clip;
+  width: 460px;
+  pointer-events: auto;
+}
+.content-card-reveal[aria-hidden="true"] { pointer-events: none; }
+.content-slide[data-content-offset="0"] .content-cover { cursor: default; }
+.content-card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--soft);
+  border-radius: 24px;
+  padding: 24px;
+  width: 460px;
+  min-width: 0;
+}
+.content-card h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.content-description {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.content-result {
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.content-metadata {
+  font-size: 15px;
+  line-height: 1.4;
+}
+.content-video {
+  padding: 12px 24px;
+  width: 220px;
+  max-width: 100%;
+  border: 0;
+  border-radius: 14px;
+  background: var(--brown);
+  color: var(--cream);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.content-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  margin-top: 28px;
+  position: relative;
+  z-index: 3;
+}
+.content-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: var(--soft);
+  flex: none;
+}
+.content-arrow img {
+  width: 24px;
+  height: 24px;
+}
+.content-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 84px;
+  min-height: 32px;
+}
+.content-dot {
+  display: block;
+  flex: none;
+  border: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(194, 116, 132, .4);
+  position: relative;
+}
+.content-dot::after {
+  content: '';
+  position: absolute;
+  inset: -14px -6px;
+}
+.content-dot[aria-current="true"] {
+  width: 28px;
+  background: var(--brown);
+}
+@media (max-width: 799px) {
+  .content { padding-block: 56px; }
+  .content-header { margin-bottom: 28px; }
+  .content-title { font-size: 48px; width: 342px; }
+  .content-introduction { font-size: 18px; }
+  .content-stage { min-height: 722px; padding-bottom: 16px; }
+  .content-carousel { height: 650px; }
+  .content-slide {
+    width: 232px;
+    height: auto;
+    flex-direction: column;
+  }
+  .content-cover { width: 232px; height: auto; }
+  .content-card-reveal {
+    width: min(342px, calc(100vw - 48px));
+    margin-left: 0;
+    margin-top: -80px;
+    overflow: visible;
+  }
+  .content-card {
+    width: min(342px, calc(100vw - 48px));
+    margin-left: 0;
+    padding: 20px;
+    min-height: 298px;
+  }
+  .content-card h3 { font-size: 23px; }
+  .content-description { font-size: 17px; }
+  .content-result, .content-video { font-size: 16px; }
+  .content-metadata { font-size: 14px; }
+  .content-video { min-height: 48px; width: 100%; }
+  .content-controls { gap: 15px; }
+}

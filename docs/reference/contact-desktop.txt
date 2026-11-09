@@ -1,0 +1,177 @@
+const imgGroup = "https://www.figma.com/api/mcp/asset/bde006ab-cd3d-47cc-9eea-7bedd87756ac.svg";
+const imgPontoDeCor = "https://www.figma.com/api/mcp/asset/a5c8ce35-422d-4d22-863e-5b005e8bfb4c.svg";
+const imgLetteringRaytonBrinkContact = "https://www.figma.com/api/mcp/asset/fb6f9f5d-8c42-48be-8ee7-31ea12dc628a.svg";
+const imgIconeOriginalWhatsApp = "https://www.figma.com/api/mcp/asset/9d64717d-9a73-4152-a2a1-a2a6633cfb55.svg";
+const imgIconeOriginalInstagram = "https://www.figma.com/api/mcp/asset/380fceb5-3821-4f9e-bbc4-4faaa060127d.svg";
+const imgIconeOriginalTikTok = "https://www.figma.com/api/mcp/asset/74b31228-ea85-4542-b1a7-50ae736cf8d9.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/2867bb24-1c7a-44bc-a621-2768d6cbc43d.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/8e056dc1-57c4-4be0-ae55-676cf3dbfff6.svg";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/31c44395-3c4e-4636-b0a7-97d2fc6e4b42.svg";
+const imgVector3 = "https://www.figma.com/api/mcp/asset/d258587d-04b6-4389-8b19-9e992b509ddf.svg";
+const imgVector4 = "https://www.figma.com/api/mcp/asset/c2707521-20fd-4937-a870-f6e38e2afeec.svg";
+const imgVector5 = "https://www.figma.com/api/mcp/asset/3f0ffa61-c215-43fb-9400-ac1b0b8c1454.svg";
+const imgVector6 = "https://www.figma.com/api/mcp/asset/dc39ded0-f912-4421-b2b8-304fa9548a99.svg";
+const imgVector7 = "https://www.figma.com/api/mcp/asset/f8030567-cb15-4a94-8389-f72a275b48c7.svg";
+
+export default function Component05ParceriasEContato() {
+  return (
+    <div className="bg-[#ffffeb] content-stretch flex flex-col items-start p-[16px] relative size-full" data-node-id="13:56" data-name="05 | Parcerias e contato">
+      <div className="bg-[#633b22] content-stretch flex flex-col gap-[48px] items-start pb-[24px] pt-[80px] relative rounded-[40px] shrink-0 w-full" data-node-id="1:2940">
+        <div className="-translate-x-1/2 absolute h-[613px] left-[calc(50%+393px)] overflow-clip top-[-47.56px] w-[590px]" data-node-id="13:94" data-name="Mascote original">
+          <div className="absolute contents inset-[0_0_-21.37%_0]" data-node-id="13:95" data-name="Camada 1">
+            <div className="absolute inset-[0_0_-21.37%_0]" data-node-id="13:96" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[48px] items-start px-[48px] relative shrink-0 w-full" data-node-id="1:2722">
+          <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="13:57" data-name="Introdução de parcerias">
+            <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="26:181" data-name="Label da seção | PARCERIAS">
+              <div className="relative shrink-0 size-[9px]" data-node-id="26:182" data-name="Ponto de cor">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPontoDeCor} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[14px] w-[300px]" data-node-id="26:183" style={{ fontVariationSettings: '"opsz" 14' }}>
+                PARCERIAS
+              </p>
+            </div>
+            <div className="h-[114.4px] overflow-clip relative shrink-0 w-[559.944px]" data-node-id="13:59" data-name="Vamos criar juntos? | Rayton vetorial">
+              <div className="absolute h-[114.4px] left-0 top-0 w-[559.944px]" data-node-id="13:60" data-name="Lettering Rayton Brink | contact">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLetteringRaytonBrinkContact} />
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex items-start overflow-clip relative shrink-0 w-full" data-node-id="13:78" data-name="Formatos e mascote">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[32px] items-start leading-[1.4] overflow-clip relative shrink-0 text-[#ffffeb] w-[824px]" data-node-id="13:79" data-name="Possibilidades de parceria">
+              <div className="content-stretch flex gap-[32px] items-start overflow-clip relative shrink-0 w-[824px]" data-node-id="13:80" data-name="Formatos 1">
+                <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[396px]" data-node-id="13:81" data-name="Reels">
+                  <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-[26px] w-[396px]" data-node-id="13:82" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Reels
+                  </p>
+                  <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 text-[21px] w-[396px]" data-node-id="13:83" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Vídeos com roteiro, gravação e edição para integrar a marca ao conteúdo.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[396px]" data-node-id="13:84" data-name="Stories">
+                  <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-[26px] w-[396px]" data-node-id="13:85" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Stories
+                  </p>
+                  <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 text-[21px] w-[396px]" data-node-id="13:86" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Sequências para apresentar o produto, demonstrar seu uso e convidar à ação.
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[32px] items-start overflow-clip relative shrink-0 w-[824px]" data-node-id="13:87" data-name="Formatos 2">
+                <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[396px]" data-node-id="13:88" data-name="Eventos e experiências">
+                  <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-[26px] w-[396px]" data-node-id="13:89" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Eventos e experiências
+                  </p>
+                  <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 text-[21px] w-[396px]" data-node-id="13:90" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Coberturas que aproximam o público das experiências com a marca.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[10px] items-start overflow-clip relative shrink-0 w-[396px]" data-node-id="13:91" data-name="TikTok">
+                  <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-[26px] w-[396px]" data-node-id="13:92" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    TikTok
+                  </p>
+                  <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 text-[21px] w-[396px]" data-node-id="13:93" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Publicação ou adaptação de vídeos, conforme as entregas da campanha.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#ffffeb] content-stretch flex flex-col gap-[28px] items-start overflow-clip p-[40px] relative rounded-[28px] shrink-0 w-full" data-node-id="13:131" data-name="Contato comercial">
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[32px] w-[1232px]" data-node-id="13:132" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Conte sua ideia
+            </p>
+            <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[22px] w-[1000px]" data-node-id="13:133" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Compartilhe o objetivo da campanha, as entregas desejadas e o prazo para receber uma proposta.
+            </p>
+            <div className="content-stretch cursor-pointer flex gap-[24px] items-start overflow-clip relative shrink-0 w-[1182px]" data-node-id="13:134" data-name="Canais de contato">
+              <a className="bg-[#633b22] content-stretch flex gap-[16px] items-center overflow-clip p-[24px] relative rounded-[18px] shrink-0 w-[378px]" href="https://wa.me/5511980328462" data-node-id="13:135" target="_blank" data-name="WhatsApp">
+                <div className="relative shrink-0 size-[32px]" data-node-id="13:136" data-name="Ícone original | WhatsApp">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconeOriginalWhatsApp} />
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 text-[#ffffeb] text-left w-[282px]" data-node-id="13:138" data-name="Canal e endereço">
+                  <p className="font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[20px] w-[282px]" data-node-id="13:139" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    WhatsApp
+                  </p>
+                  <div className="font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[17px] w-[282px]" data-node-id="13:140" role="link" style={{ fontVariationSettings: '"opsz" 14' }} tabIndex="0">
+                    <p className="cursor-pointer leading-[1.4]">(11) 98032-8462</p>
+                  </div>
+                </div>
+              </a>
+              <a className="bg-[#f5e7dc] content-stretch flex gap-[16px] items-center overflow-clip p-[24px] relative rounded-[18px] shrink-0 w-[378px]" href="https://www.instagram.com/dotinha.tosadora/" data-node-id="13:141" target="_blank" data-name="Instagram">
+                <div className="relative shrink-0 size-[32px]" data-node-id="13:142" data-name="Ícone original | Instagram">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconeOriginalInstagram} />
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 text-[#633b22] text-left w-[282px]" data-node-id="13:144" data-name="Canal e endereço">
+                  <p className="font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[20px] w-[282px]" data-node-id="13:145" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    Instagram
+                  </p>
+                  <div className="font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[17px] w-[282px]" data-node-id="13:146" role="link" style={{ fontVariationSettings: '"opsz" 14' }} tabIndex="0">
+                    <p className="cursor-pointer leading-[1.4]">@dotinha.tosadora</p>
+                  </div>
+                </div>
+              </a>
+              <a className="bg-[#f5e7dc] content-stretch flex gap-[16px] items-center overflow-clip p-[24px] relative rounded-[18px] shrink-0 w-[378px]" href="https://www.tiktok.com/@dotinha.tosadora" data-node-id="13:147" target="_blank" data-name="TikTok">
+                <div className="relative shrink-0 size-[32px]" data-node-id="13:148" data-name="Ícone original | TikTok">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconeOriginalTikTok} />
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start overflow-clip relative shrink-0 text-[#633b22] text-left w-[282px]" data-node-id="13:150" data-name="Canal e endereço">
+                  <p className="font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[20px] w-[282px]" data-node-id="13:151" style={{ fontVariationSettings: '"opsz" 14' }}>
+                    TikTok
+                  </p>
+                  <div className="font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[17px] w-[282px]" data-node-id="13:152" role="link" style={{ fontVariationSettings: '"opsz" 14' }} tabIndex="0">
+                    <p className="cursor-pointer leading-[1.4]">@dotinha.tosadora</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[1232px]" data-node-id="13:153" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Escopo, valores, prazos e direitos de uso no orçamento separado.
+            </p>
+          </div>
+          <div className="aspect-[1408/310] overflow-clip relative shrink-0 w-full" data-node-id="1:2941" data-name="Dotinha | Marca original fullsize">
+            <div className="absolute inset-[4.59%_17.18%_7.81%_69.28%]" data-node-id="1:2942" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+            </div>
+            <div className="absolute inset-[21.28%_0_-0.07%_84.84%]" data-node-id="1:2943" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+            </div>
+            <div className="absolute inset-[16.15%_33.14%_7.83%_53.37%]" data-node-id="1:2944" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+            </div>
+            <div className="absolute inset-[2.66%_55.56%_6.26%_33.16%]" data-node-id="1:2945" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+            <div className="absolute inset-[28.43%_49.04%_7.84%_45.26%]" data-node-id="1:2946" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+            </div>
+            <div className="absolute inset-[0.05%_48.63%_74.55%_45.64%]" data-node-id="1:2947" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector5} />
+            </div>
+            <div className="absolute inset-[2.91%_84.16%_7.83%_0]" data-node-id="1:2948" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+            </div>
+            <div className="absolute inset-[21.24%_67.06%_2%_17.66%]" data-node-id="1:2949" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

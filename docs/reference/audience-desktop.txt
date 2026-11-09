@@ -1,0 +1,220 @@
+const imgPontoDeCor = "https://www.figma.com/api/mcp/asset/9fad0326-4852-4332-be8c-e78e97850001.svg";
+const imgLetteringRaytonBrinkAudience = "https://www.figma.com/api/mcp/asset/9ef318b5-6f22-4b09-8738-e25368615a27.svg";
+const imgPhosphorInstagramLogoDuotone = "https://www.figma.com/api/mcp/asset/ff8ebef7-a1e0-405d-9d46-68b37194fa2b.svg";
+const imgPhosphorTiktokLogoDuotone = "https://www.figma.com/api/mcp/asset/3d02f989-aa8e-4b42-8805-53a7c0fba211.svg";
+const imgPhosphorGenderIntersexDuotone = "https://www.figma.com/api/mcp/asset/a68e66e8-157d-4ad9-9ddf-0772fb342e52.svg";
+const imgPhosphorCalendarDotsDuotone = "https://www.figma.com/api/mcp/asset/f14cda3c-fb59-4ca0-90cf-a94f8abb4bda.svg";
+const imgPhosphorMapPinDuotone = "https://www.figma.com/api/mcp/asset/3444a5c2-bf43-4c2b-9b04-ad1d256e449e.svg";
+
+export default function Component03Publico() {
+  return (
+    <div className="bg-[#c27484] content-stretch flex flex-col gap-[24px] items-start px-[64px] py-[88px] relative size-full" data-node-id="12:258" data-name="03 | Público">
+      <div className="content-stretch flex h-[154.8px] items-end justify-between relative shrink-0 w-full" data-node-id="12:262" data-name="Cabeçalho">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[9px] items-start min-w-px relative" data-node-id="1:2925">
+          <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-[1312px]" data-node-id="26:175" data-name="Label da seção | PÚBLICO">
+            <div className="relative shrink-0 size-[9px]" data-node-id="26:176" data-name="Ponto de cor">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPontoDeCor} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[14px] w-[300px]" data-node-id="26:177" style={{ fontVariationSettings: '"opsz" 14' }}>
+              PÚBLICO
+            </p>
+          </div>
+          <div className="h-[84.24px] overflow-clip relative shrink-0 w-[442.778px]" data-node-id="12:264" data-name="Título Rayton Brink | audience">
+            <div className="absolute h-[84.24px] left-0 top-0 w-[442.778px]" data-node-id="12:265" data-name="Lettering Rayton Brink | audience">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLetteringRaytonBrinkAudience} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#ffffeb] text-[21.6px] w-[1188px]" data-node-id="12:281" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Um retrato da audiência para encontrar marcas com interesses em comum.
+          </p>
+        </div>
+        <div className="bg-[rgba(255,255,235,0.09)] content-stretch flex gap-[8px] items-start overflow-clip p-[6px] relative rounded-[999px] shrink-0" data-node-id="1:2926" data-name="Filtro de plataforma">
+          <div className="bg-[#ffffeb] content-stretch flex gap-[8px] items-center overflow-clip p-[10px] relative rounded-[999px] shrink-0 w-[136px]" data-node-id="1:2927" data-name="Instagram">
+            <div className="relative shrink-0 size-[20px]" data-node-id="1:2928" data-name="Phosphor / instagram-logo / duotone">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorInstagramLogoDuotone} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] whitespace-nowrap" data-node-id="1:2931" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Instagram
+            </p>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-center overflow-clip p-[10px] relative rounded-[999px] shrink-0 w-[136px]" data-node-id="1:2932" data-name="TikTok">
+            <div className="relative shrink-0 size-[20px]" data-node-id="1:2933" data-name="Phosphor / tiktok-logo / duotone">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorTiktokLogoDuotone} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[16px] whitespace-nowrap" data-node-id="1:2936" style={{ fontVariationSettings: '"opsz" 14' }}>
+              TikTok
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[24px] items-end relative shrink-0 w-[1312px]" data-node-id="26:571" data-name="Público | Instagram / TikTok">
+        <div className="content-stretch flex gap-[24px] h-[462.6px] items-start relative shrink-0 w-[1312px]" data-node-id="I26:571;12:297" data-name="Perfil da audiência">
+          <div className="bg-[#ffffeb] content-stretch flex flex-col gap-[16px] h-[462.6px] items-start p-[27px] relative rounded-[25.2px] shrink-0 w-[421.333px]" data-node-id="I26:571;12:298" data-name="Gênero">
+            <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="I26:571;26:254" data-name="Pill | GÊNERO">
+              <div className="relative shrink-0 size-[22px]" data-node-id="I26:571;26:255" data-name="Phosphor / gender-intersex / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorGenderIntersexDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="I26:571;26:258" style={{ fontVariationSettings: '"opsz" 14' }}>
+                GÊNERO
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[64px] w-[367.333px]" data-node-id="I26:571;12:300" style={{ fontVariationSettings: '"opsz" 14' }}>
+              [00%]
+            </p>
+            <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[22px] w-[367.333px]" data-node-id="I26:571;12:301" style={{ fontVariationSettings: '"opsz" 14' }}>
+              [Grupo predominante]
+            </p>
+            <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[1.4] overflow-clip relative shrink-0 text-[#633b22] w-[367.333px]" data-node-id="I26:571;26:259" data-name="Tabela de distribuição">
+              <div className="content-stretch flex font-['DM_Sans:Bold'] font-bold gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[13px] w-[367.333px]" data-node-id="I26:571;26:260" data-name="Cabeçalho da tabela">
+                <p className="relative shrink-0 w-[241px]" data-node-id="I26:571;26:261" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Grupo
+                </p>
+                <p className="relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:262" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Audiência
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:263" data-name="Linha | [Grupo 1]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:264" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Grupo 1]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:265" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:266" data-name="Linha | [Grupo 2]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:267" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Grupo 2]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:268" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#ffffeb] content-stretch flex flex-col gap-[16px] h-[462.6px] items-start p-[27px] relative rounded-[25.2px] shrink-0 w-[421.333px]" data-node-id="I26:571;12:304" data-name="Faixa etária">
+            <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="I26:571;26:269" data-name="Pill | FAIXA ETÁRIA">
+              <div className="relative shrink-0 size-[22px]" data-node-id="I26:571;26:270" data-name="Phosphor / calendar-dots / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorCalendarDotsDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="I26:571;26:273" style={{ fontVariationSettings: '"opsz" 14' }}>
+                FAIXA ETÁRIA
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[64px] w-[367.333px]" data-node-id="I26:571;12:306" style={{ fontVariationSettings: '"opsz" 14' }}>
+              [00 a 00]
+            </p>
+            <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[22px] w-[367.333px]" data-node-id="I26:571;12:307" style={{ fontVariationSettings: '"opsz" 14' }}>
+              anos · [00%] da audiência
+            </p>
+            <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[1.4] overflow-clip relative shrink-0 text-[#633b22] w-[367.333px]" data-node-id="I26:571;26:274" data-name="Tabela de distribuição">
+              <div className="content-stretch flex font-['DM_Sans:Bold'] font-bold gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[13px] w-[367.333px]" data-node-id="I26:571;26:275" data-name="Cabeçalho da tabela">
+                <p className="relative shrink-0 w-[241px]" data-node-id="I26:571;26:276" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Faixa etária
+                </p>
+                <p className="relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:277" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Audiência
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:278" data-name="Linha | [Faixa 1]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:279" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Faixa 1]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:280" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:281" data-name="Linha | [Faixa 2]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:282" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Faixa 2]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:283" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:284" data-name="Linha | [Faixa 3]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:285" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Faixa 3]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:286" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#eecba4] content-stretch flex flex-col gap-[16px] h-[462.6px] items-start p-[27px] relative rounded-[25.2px] shrink-0 w-[421.333px]" data-node-id="I26:571;12:310" data-name="Localização">
+            <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="I26:571;26:287" data-name="Pill | LOCALIZAÇÃO">
+              <div className="relative shrink-0 size-[22px]" data-node-id="I26:571;26:288" data-name="Phosphor / map-pin / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorMapPinDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="I26:571;26:291" style={{ fontVariationSettings: '"opsz" 14' }}>
+                LOCALIZAÇÃO
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[64px] w-[367.333px]" data-node-id="I26:571;12:312" style={{ fontVariationSettings: '"opsz" 14' }}>
+              [00%]
+            </p>
+            <p className="[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[1.4] relative shrink-0 text-[#633b22] text-[22px] w-[367.333px]" data-node-id="I26:571;12:313" style={{ fontVariationSettings: '"opsz" 14' }}>
+              do público está no Brasil
+            </p>
+            <div className="[word-break:break-word] content-stretch flex flex-col items-start leading-[1.4] overflow-clip relative shrink-0 text-[#633b22] w-[367.333px]" data-node-id="I26:571;26:292" data-name="Tabela de distribuição">
+              <div className="content-stretch flex font-['DM_Sans:Bold'] font-bold gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[13px] w-[367.333px]" data-node-id="I26:571;26:293" data-name="Cabeçalho da tabela">
+                <p className="relative shrink-0 w-[241px]" data-node-id="I26:571;26:294" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Localização
+                </p>
+                <p className="relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:295" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  Audiência
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:296" data-name="Linha | [Cidade / UF]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:297" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Cidade / UF]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:298" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:299" data-name="Linha | [Cidade / UF]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:300" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Cidade / UF]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:301" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+              <div className="border-[rgba(99,59,34,0.14)] border-solid border-t content-stretch flex gap-[12px] items-start overflow-clip py-[10px] relative shrink-0 text-[18px] w-[367.333px]" data-node-id="I26:571;26:302" data-name="Linha | [Cidade / UF]">
+                <p className="font-['DM_Sans:Regular'] font-normal relative shrink-0 w-[241px]" data-node-id="I26:571;26:303" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [Cidade / UF]
+                </p>
+                <p className="font-['DM_Sans:Bold'] font-bold relative shrink-0 text-right w-[114px]" data-node-id="I26:571;26:304" style={{ fontVariationSettings: '"opsz" 14' }}>
+                  [00%]
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.3] relative shrink-0 text-[#ffffeb] text-[15.3px] w-[1312px]" data-node-id="I26:571;12:316" style={{ fontVariationSettings: '"opsz" 14' }}>
+          Fonte: Instagram Insights · Público: [seguidores / contas alcançadas] · Consulta em [dd/mm/aaaa]
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Dotinha / Público por plataforma
+**Node ID:** 26:568
+
+Estados independentes de Instagram e TikTok. Os dados de TikTok são pendentes; não reutilizar números de Instagram.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

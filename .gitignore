@@ -1,0 +1,21 @@
+node_modules/
+dist/
+*.log
+
+# Arquivos temporários e evidências locais de revisão.
+tmp/*
+!tmp/brand_titles.py
+
+# Cópias automáticas do Blender e cache do Python.
+*.blend[0-9]
+__pycache__/
+*.py[cod]
+
+# Configurações locais e credenciais.
+.env
+.env.*
+!.env.example
+!.env.template
+.DS_Store
+Thumbs.db
+

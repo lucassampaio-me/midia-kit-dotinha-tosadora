@@ -1,0 +1,189 @@
+const imgPhosphorInstagramLogoDuotone = "https://www.figma.com/api/mcp/asset/36f8aada-426a-40e5-8628-c079091d9401.svg";
+const imgPhosphorTiktokLogoDuotone = "https://www.figma.com/api/mcp/asset/65394bb0-4daa-4e2f-8c44-63a003989939.svg";
+const imgPhosphorUsersDuotone = "https://www.figma.com/api/mcp/asset/db8a04af-a6e7-4b8a-96a2-9dac51471cc6.svg";
+const imgPhosphorEyeDuotone = "https://www.figma.com/api/mcp/asset/449100f2-86be-444e-ab5c-04a9cc9a69e1.svg";
+const imgPhosphorChartLineUpDuotone = "https://www.figma.com/api/mcp/asset/8c695555-d83e-43c2-af49-8b37cbc44093.svg";
+const imgPhosphorVideoCameraDuotone = "https://www.figma.com/api/mcp/asset/b9d0142d-df34-44e0-9881-73efc029ecb9.svg";
+const imgPhosphorStackDuotone = "https://www.figma.com/api/mcp/asset/010ebf91-1191-4a50-baac-fbb5a54baf1c.svg";
+const imgPontoDeCor = "https://www.figma.com/api/mcp/asset/0e8ed6d3-83eb-4ee7-8841-82f641b04c9f.svg";
+const imgTituloRaytonBrinkPerformanceMobile = "https://www.figma.com/api/mcp/asset/5af10af4-38f9-4d73-93d7-cc1f5f11ec42.svg";
+
+type DotinhaMobileResultadosPorPlataformaProps = {
+  className?: string;
+  plataforma?: "Instagram";
+};
+
+function DotinhaMobileResultadosPorPlataforma({ className, plataforma = "Instagram" }: DotinhaMobileResultadosPorPlataformaProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[20px] items-start relative w-[342px]"} data-node-id="35:628">
+      <div className="bg-[rgba(99,59,34,0.09)] content-stretch flex gap-[8px] items-start overflow-clip p-[6px] relative rounded-[999px] shrink-0" data-node-id="35:617" data-name="Filtro de plataforma">
+        <div className="bg-[#ffffeb] content-stretch flex gap-[8px] items-center overflow-clip p-[10px] relative rounded-[999px] shrink-0 w-[136px]" data-node-id="35:618" data-name="Instagram">
+          <div className="relative shrink-0 size-[20px]" data-node-id="35:619" data-name="Phosphor / instagram-logo / duotone">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorInstagramLogoDuotone} />
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] whitespace-nowrap" data-node-id="35:622" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Instagram
+          </p>
+        </div>
+        <button className="content-stretch cursor-pointer flex gap-[8px] items-center overflow-clip p-[10px] relative rounded-[999px] shrink-0 w-[136px]" data-node-id="35:623" data-name="TikTok">
+          <div className="relative shrink-0 size-[20px]" data-node-id="35:624" data-name="Phosphor / tiktok-logo / duotone">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorTiktokLogoDuotone} />
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] text-left whitespace-nowrap" data-node-id="35:627" style={{ fontVariationSettings: '"opsz" 14' }}>
+            TikTok
+          </p>
+        </button>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[342px]" data-node-id="35:566" data-name="Indicadores da conta">
+        <div className="bg-[#eecba4] content-stretch flex flex-col gap-[14px] items-start p-[24px] relative rounded-[25.2px] shrink-0 w-[342px]" data-node-id="35:567" data-name="Seguidores">
+          <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:568" data-name="Pill | Seguidores">
+            <div className="relative shrink-0 size-[22px]" data-node-id="35:569" data-name="Phosphor / users / duotone">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorUsersDuotone} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="35:572" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Seguidores
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[42px] w-[294px]" data-node-id="35:573" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [00 mil]
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] w-[294px]" data-node-id="35:574" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Total na data da consulta.
+          </p>
+        </div>
+        <div className="bg-[#f5e7dc] content-stretch flex flex-col gap-[14px] items-start p-[24px] relative rounded-[25.2px] shrink-0 w-[342px]" data-node-id="35:575" data-name="Visualizações">
+          <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:576" data-name="Pill | Visualizações">
+            <div className="relative shrink-0 size-[22px]" data-node-id="35:577" data-name="Phosphor / eye / duotone">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorEyeDuotone} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="35:580" style={{ fontVariationSettings: '"opsz" 14' }}>
+              Visualizações
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[42px] w-[294px]" data-node-id="35:581" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [00 mil]
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] w-[294px]" data-node-id="35:582" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Exibições durante o período.
+          </p>
+        </div>
+        <div className="bg-[#eecba4] content-stretch flex flex-col gap-[14px] items-start p-[24px] relative rounded-[25.2px] shrink-0 w-[342px]" data-node-id="35:583" data-name="[Indicador de alcance]">
+          <div className="bg-[rgba(99,59,34,0.07)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:584" data-name="Pill | [Indicador de alcance]">
+            <div className="relative shrink-0 size-[22px]" data-node-id="35:585" data-name="Phosphor / chart-line-up / duotone">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorChartLineUpDuotone} />
+            </div>
+            <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] whitespace-nowrap" data-node-id="35:588" style={{ fontVariationSettings: '"opsz" 14' }}>
+              [Indicador de alcance]
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#633b22] text-[42px] w-[294px]" data-node-id="35:589" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [00 mil]
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[16px] w-[294px]" data-node-id="35:590" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [Nome e definição do Insights].
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[342px]" data-node-id="35:591" data-name="Entrega habitual">
+        <div className="bg-[#c27484] content-stretch flex flex-col gap-[14px] items-start p-[24px] relative rounded-[25.2px] shrink-0 w-[342px]" data-node-id="35:592" data-name="Reels habituais">
+          <div className="content-stretch flex gap-[6px] items-start overflow-clip relative shrink-0 w-[294px]" data-node-id="35:593" data-name="Formato e medida">
+            <div className="bg-[rgba(255,255,235,0.16)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:594" data-name="Pill | REELS">
+              <div className="relative shrink-0 size-[22px]" data-node-id="35:595" data-name="Phosphor / video-camera / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorVideoCameraDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[12px] whitespace-nowrap" data-node-id="35:598" style={{ fontVariationSettings: '"opsz" 14' }}>
+                REELS
+              </p>
+            </div>
+            <div className="bg-[rgba(255,255,235,0.16)] content-stretch flex items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:599" data-name="Pill | DESEMPENHO HABITUAL">
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[12px] whitespace-nowrap" data-node-id="35:600" style={{ fontVariationSettings: '"opsz" 14' }}>
+                DESEMPENHO HABITUAL
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[28px] w-[294px]" data-node-id="35:601" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [00 mil] visualizações
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#ffffeb] text-[17px] w-[294px]" data-node-id="35:602" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Mediana de [N] Reels publicados entre [data] e [data]. Resultados consultados em [data].
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#ffffeb] text-[14px] w-[294px]" data-node-id="35:603" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [Informar se houve impulsionamento na amostra.]
+          </p>
+        </div>
+        <div className="bg-[#633b22] content-stretch flex flex-col gap-[14px] items-start p-[24px] relative rounded-[25.2px] shrink-0 w-[342px]" data-node-id="35:604" data-name="Stories habituais">
+          <div className="content-stretch flex gap-[6px] items-start overflow-clip relative shrink-0 w-[294px]" data-node-id="35:605" data-name="Formato e medida">
+            <div className="bg-[rgba(255,255,235,0.16)] content-stretch flex gap-[8px] items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:606" data-name="Pill | STORIES">
+              <div className="relative shrink-0 size-[22px]" data-node-id="35:607" data-name="Phosphor / stack / duotone">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPhosphorStackDuotone} />
+              </div>
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[12px] whitespace-nowrap" data-node-id="35:610" style={{ fontVariationSettings: '"opsz" 14' }}>
+                STORIES
+              </p>
+            </div>
+            <div className="bg-[rgba(255,255,235,0.16)] content-stretch flex items-center overflow-clip px-[12px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="35:611" data-name="Pill | DESEMPENHO HABITUAL">
+              <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[12px] whitespace-nowrap" data-node-id="35:612" style={{ fontVariationSettings: '"opsz" 14' }}>
+                DESEMPENHO HABITUAL
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#ffffeb] text-[28px] w-[294px]" data-node-id="35:613" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [00 mil] por tela
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#ffffeb] text-[17px] w-[294px]" data-node-id="35:614" style={{ fontVariationSettings: '"opsz" 14' }}>
+            Mediana de [N] telas publicadas entre [data] e [data], medidas após completar 24 horas.
+          </p>
+          <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#ffffeb] text-[14px] w-[294px]" data-node-id="35:615" style={{ fontVariationSettings: '"opsz" 14' }}>
+            [Informar se houve impulsionamento na amostra.]
+          </p>
+        </div>
+      </div>
+      <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[14px] w-[342px]" data-node-id="35:616" style={{ fontVariationSettings: '"opsz" 14' }}>
+        Fonte: Instagram Insights · Resultados anteriores não garantem o desempenho de futuras publicações.
+      </p>
+    </div>
+  );
+}
+
+export default function Component02Resultados() {
+  return (
+    <div className="bg-[var(--dotinha-cream,#ffffeb)] content-stretch flex flex-col gap-[28px] items-start px-[24px] py-[56px] relative size-full" data-node-id="35:436" data-name="02 | Resultados">
+      <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-[342px]" data-node-id="35:437" data-name="Cabeçalho | Resultados">
+        <div className="content-stretch flex gap-[10px] items-center overflow-clip relative shrink-0 w-[342px]" data-node-id="35:438" data-name="Label da seção | RESULTADOS">
+          <div className="relative shrink-0 size-[9px]" data-node-id="35:439" data-name="Ponto de cor">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPontoDeCor} />
+          </div>
+          <p className="[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[1.4] relative shrink-0 text-[#633b22] text-[13px] w-[322px]" data-node-id="35:440" style={{ fontVariationSettings: '"opsz" 14' }}>
+            RESULTADOS
+          </p>
+        </div>
+        <div className="h-[71.5px] relative shrink-0 w-[342px]" data-node-id="35:441" data-name="Título Rayton Brink | performance | Mobile">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTituloRaytonBrinkPerformanceMobile} />
+        </div>
+        <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[342px]" data-node-id="35:468" style={{ fontVariationSettings: '"opsz" 14' }}>
+          Período: [dd/mm/aaaa] a [dd/mm/aaaa] · Últimos 30 dias.
+        </p>
+      </div>
+      <DotinhaMobileResultadosPorPlataforma className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[342px]" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Dotinha / Mobile / Resultados por plataforma
+**Node ID:** 35:703
+
+Adaptação mobile da versão atual. Instagram e TikTok com estados independentes; dados pendentes preservados.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

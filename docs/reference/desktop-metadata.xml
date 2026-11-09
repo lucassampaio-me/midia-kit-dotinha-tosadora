@@ -1,0 +1,328 @@
+<frame id="12:2" name="Site | Desktop · 1440" x="160" y="160" width="1440" height="4868.82373046875">
+  <frame id="12:3" name="01 | Apresentação" x="0" y="0" width="1440" height="832">
+    <frame id="18:2" name="Hero | Card com recorte arredondado" x="16" y="16" width="1408" height="800">
+      <frame id="12:4" name="Decoração | Pelo da identidade" x="-220" y="684" width="612" height="627.0223999023438">
+        <frame id="12:5" name="Camada 1" x="0.0046485899947583675" y="-0.0024169920943677425" width="611.9953002929688" height="627.0223999023438">
+          <vector id="12:6" name="Vector" x="0.0046485899947583675" y="-0.0024169920943677425" width="611.9953002929688" height="627.0223999023438" />
+        </frame>
+      </frame>
+      <frame id="12:7" name="Decoração | Pelo da identidade" x="725" y="-608" width="783" height="802">
+        <frame id="12:8" name="Camada 1" x="0.00566615117713809" y="-0.002932759700343013" width="782.9939575195312" height="802">
+          <vector id="12:9" name="Vector" x="0.00566615117713809" y="-0.002932759700343013" width="782.9939575195312" height="802" />
+        </frame>
+        <ellipse id="12:10" name="Ellipse 5" x="115.14705657958984" y="141.59205627441406" width="493.9809265136719" height="518.019775390625" />
+      </frame>
+      <frame id="12:317" name="Navegação | Barra de atalhos" x="760" y="40" width="600" height="64">
+        <frame id="26:184" name="Ir para Resultados" x="9" y="9" width="144" height="46">
+          <frame id="26:185" name="Phosphor / chart-line-up / duotone" x="12" y="13" width="20" height="20" />
+          <text id="26:188" name="Destino" x="40" y="12" width="87" height="22" />
+        </frame>
+        <frame id="26:190" name="Ir para Público" x="157" y="9" width="122" height="46">
+          <frame id="26:191" name="Phosphor / users / duotone" x="12" y="13" width="20" height="20" />
+          <text id="26:194" name="Destino" x="40" y="12" width="59" height="22" />
+        </frame>
+        <frame id="26:196" name="Ir para Conteúdos" x="283" y="9" width="143" height="46">
+          <frame id="26:197" name="Phosphor / stack / duotone" x="12" y="13" width="20" height="20" />
+          <text id="26:200" name="Destino" x="40" y="12" width="87" height="22" />
+        </frame>
+        <frame id="26:202" name="Ir para Parcerias" x="430" y="9" width="163" height="46">
+          <frame id="26:203" name="Phosphor / handshake / duotone" x="12" y="13" width="20" height="20" />
+          <text id="26:206" name="Destino" x="40" y="12" width="74" height="22" />
+        </frame>
+      </frame>
+      <frame id="18:3" name="Logo original | Proporção preservada" x="48" y="28" width="180" height="129.13043212890625" />
+      <frame id="1:2751" name="Frame 2" x="48" y="220" width="620" height="412.5">
+        <frame id="12:155" name="Apresentação" x="0" y="0" width="620" height="280.5">
+          <frame id="12:157" name="Título Rayton Brink | cover" x="0" y="0" width="620" height="87.30000305175781">
+            <frame id="12:158" name="Lettering Rayton Brink | cover" x="-0.00000610351571594947" y="14.400012016296387" width="371.70001220703125" height="58.5">
+              <vector id="12:159" name="Vector" x="0.537445068359375" y="7.736395359039307" width="34.036041259765625" height="49.86359786987305" />
+              <vector id="12:160" name="Vector" x="35.86684036254883" y="6.375573635101318" width="13.219200134277344" height="51.22439956665039" />
+              <vector id="12:161" name="Vector" x="49.76630401611328" y="7.515460014343262" width="29.062795639038086" height="51.05651092529297" />
+              <vector id="12:162" name="Vector" x="80.77323913574219" y="-0.03961791843175888" width="39.366004943847656" height="58.61159896850586" />
+              <vector id="12:163" name="Vector" x="122.76342010498047" y="17.261981964111328" width="31.07622718811035" height="40.3380012512207" />
+              <vector id="12:164" name="Vector" x="154.6453094482422" y="6.375573635101318" width="13.219202995300293" height="51.22439956665039" />
+              <vector id="12:165" name="Vector" x="169.516845703125" y="17.261981964111328" width="36.48702621459961" height="41.310001373291016" />
+              <vector id="12:166" name="Vector" x="225.79541015625" y="7.736395359039307" width="35.47798538208008" height="49.86359786987305" />
+              <vector id="12:167" name="Vector" x="263.21746826171875" y="17.261981964111328" width="39.36602020263672" height="41.310001373291016" />
+              <vector id="12:168" name="Vector" x="303.5557556152344" y="7.515460014343262" width="29.062793731689453" height="51.05651092529297" />
+              <vector id="12:169" name="Vector" x="334.562255859375" y="17.261981964111328" width="36.48702621459961" height="41.310001373291016" />
+            </frame>
+          </frame>
+          <text id="12:170" name="Profissão" x="0" y="101.70000457763672" width="620" height="35" />
+          <text id="12:171" name="Biografia" x="0" y="151.10000610351562" width="620" height="69" />
+          <text id="12:172" name="Conexão com marcas" x="0" y="234.5" width="620" height="46" />
+        </frame>
+        <frame id="12:173" name="Pilares | Lista com ícones" x="0" y="304.5" width="620" height="108">
+          <frame id="26:208" name="Rotina de banho e tosa, do início ao fim." x="0" y="0" width="620" height="28">
+            <frame id="26:209" name="Phosphor / scissors / duotone" x="0" y="0" width="28" height="28" />
+            <text id="26:212" name="Pilar" x="40" y="0" width="580" height="28" />
+          </frame>
+          <frame id="26:213" name="Cuidados com pets, com atenção aos detalhes." x="0" y="40" width="620" height="28">
+            <frame id="26:214" name="Phosphor / paw-print / duotone" x="0" y="0" width="28" height="28" />
+            <text id="26:217" name="Pilar" x="40" y="0" width="580" height="28" />
+          </frame>
+          <frame id="26:218" name="Vida de tosadora, com técnica e personalidade." x="0" y="80" width="620" height="28">
+            <frame id="26:219" name="Phosphor / heart / duotone" x="0" y="0" width="28" height="28" />
+            <text id="26:222" name="Pilar" x="40" y="0" width="580" height="28" />
+          </frame>
+        </frame>
+      </frame>
+      <instance id="20:70" name="Hero automático | Troca a cada 4s" x="744" y="170" width="664" height="560" />
+    </frame>
+  </frame>
+  <frame id="12:183" name="02 | Resultados" x="0" y="832" width="1440" height="857.56005859375">
+    <frame id="12:187" name="Cabeçalho" x="64" y="88" width="1312" height="145.56005859375">
+      <frame id="1:2910" name="Frame 3" x="0" y="0" width="1020" height="145.56005859375">
+        <frame id="26:172" name="Label da seção | RESULTADOS" x="0" y="0" width="1312" height="20">
+          <ellipse id="26:173" name="Ponto de cor" x="0" y="5.5" width="9" height="9" />
+          <text id="26:174" name="Seção" x="19" y="0" width="300" height="20" />
+        </frame>
+        <frame id="12:189" name="Título Rayton Brink | performance" x="0" y="29" width="645.2316284179688" height="79.55999755859375">
+          <frame id="12:190" name="Lettering Rayton Brink | performance" x="0" y="0" width="645.2316284179688" height="79.55999755859375">
+            <vector id="12:191" name="Vector" x="0.611712634563446" y="29.192455291748047" width="26.943737030029297" height="32.619598388671875" />
+            <vector id="12:192" name="Vector" x="29.13120460510254" y="35.80205154418945" width="24.786001205444336" height="26.01000213623047" />
+            <vector id="12:193" name="Vector" x="55.569583892822266" y="35.80205154418945" width="21.97079849243164" height="25.398000717163086" />
+            <vector id="12:194" name="Vector" x="78.45838928222656" y="29.665307998657227" width="18.29880142211914" height="32.14669418334961" />
+            <vector id="12:195" name="Vector" x="97.9811782836914" y="35.80205154418945" width="22.59096908569336" height="26.01000213623047" />
+            <vector id="12:196" name="Vector" x="121.84892272949219" y="24.908447265625" width="21.994115829467773" height="36.90359878540039" />
+            <vector id="12:197" name="Vector" x="144.86038208007812" y="29.804393768310547" width="22.76640510559082" height="32.007598876953125" />
+            <vector id="12:198" name="Vector" x="169.46278381347656" y="35.80205154418945" width="24.785993576049805" height="26.01000213623047" />
+            <vector id="12:199" name="Vector" x="206.3664093017578" y="35.80205154418945" width="22.76639175415039" height="35.801998138427734" />
+            <vector id="12:200" name="Vector" x="231.0908203125" y="36.41399002075195" width="21.994104385375977" height="25.398000717163086" />
+            <vector id="12:201" name="Vector" x="254.0408172607422" y="35.80205154418945" width="22.5909423828125" height="26.01000213623047" />
+            <vector id="12:202" name="Vector" x="289.1091613769531" y="35.80205154418945" width="22.590970993041992" height="26.01000213623047" />
+            <vector id="12:203" name="Vector" x="313.7115173339844" y="35.80205154418945" width="21.970815658569336" height="25.398000717163086" />
+            <vector id="12:204" name="Vector" x="337.2117004394531" y="35.80205154418945" width="22.46039390563965" height="26.01000213623047" />
+            <vector id="12:205" name="Vector" x="360.8963623046875" y="35.80205154418945" width="24.786006927490234" height="26.01000213623047" />
+            <vector id="12:206" name="Vector" x="387.3348083496094" y="35.80205154418945" width="21.970788955688477" height="25.398000717163086" />
+            <vector id="12:207" name="Vector" x="410.22332763671875" y="29.665307998657227" width="18.29880142211914" height="32.14669418334961" />
+            <vector id="12:208" name="Vector" x="430.17449951171875" y="35.80205154418945" width="19.5665283203125" height="25.398000717163086" />
+            <vector id="12:209" name="Vector" x="450.37078857421875" y="35.80205154418945" width="22.973312377929688" height="26.01000213623047" />
+            <vector id="12:210" name="Vector" x="485.62200927734375" y="35.80205154418945" width="22.7663631439209" height="35.801998138427734" />
+            <vector id="12:211" name="Vector" x="509.67333984375" y="35.80205154418945" width="22.590940475463867" height="26.01000213623047" />
+            <vector id="12:212" name="Vector" x="534.1536254882812" y="35.80205154418945" width="18.849573135375977" height="26.01000213623047" />
+            <vector id="12:213" name="Vector" x="554.8394775390625" y="35.80205154418945" width="18.849628448486328" height="26.01000213623047" />
+            <vector id="12:214" name="Vector" x="575.2188110351562" y="35.80205154418945" width="24.785980224609375" height="26.01000213623047" />
+            <vector id="12:215" name="Vector" x="601.22900390625" y="35.80205154418945" width="22.973318099975586" height="26.01000213623047" />
+            <vector id="12:216" name="Vector" x="625.4639892578125" y="35.80205154418945" width="18.849573135375977" height="26.01000213623047" />
+          </frame>
+        </frame>
+        <text id="12:217" name="Descrição" x="0" y="117.56005859375" width="1188" height="28" />
+      </frame>
+      <frame id="1:2911" name="Filtro de plataforma" x="1020" y="91.56005859375" width="292" height="54">
+        <frame id="1:2912" name="Instagram" x="6" y="6" width="136" height="42">
+          <frame id="1:2913" name="Phosphor / instagram-logo / duotone" x="10" y="11" width="20" height="20" />
+          <text id="1:2916" name="Plataforma" x="38" y="10" width="80" height="22" />
+        </frame>
+        <frame id="1:2917" name="TikTok" x="150" y="6" width="136" height="42">
+          <frame id="1:2918" name="Phosphor / tiktok-logo / duotone" x="10" y="11" width="20" height="20" />
+          <text id="1:2921" name="Plataforma" x="38" y="10" width="51" height="22" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="26:419" name="Resultados | Instagram / TikTok" x="64" y="257.56005859375" width="1312" height="512" />
+  </frame>
+  <frame id="12:258" name="03 | Público" x="0" y="1689.56005859375" width="1440" height="861.4000244140625">
+    <frame id="12:262" name="Cabeçalho" x="64" y="88" width="1312" height="154.8000030517578">
+      <frame id="1:2925" name="Frame 4" x="0" y="4.5600128173828125" width="1020" height="150.239990234375">
+        <frame id="26:175" name="Label da seção | PÚBLICO" x="0" y="0" width="1312" height="20">
+          <ellipse id="26:176" name="Ponto de cor" x="0" y="5.5" width="9" height="9" />
+          <text id="26:177" name="Seção" x="19" y="0" width="300" height="20" />
+        </frame>
+        <frame id="12:264" name="Título Rayton Brink | audience" x="0" y="29" width="442.7784118652344" height="84.23999786376953">
+          <frame id="12:265" name="Lettering Rayton Brink | audience" x="0" y="0" width="442.7784118652344" height="84.23999786376953">
+            <vector id="12:266" name="Vector" x="0.6479949951171875" y="30.909618377685547" width="29.483999252319336" height="41.01839828491211" />
+            <vector id="12:267" name="Vector" x="31.75199317932129" y="38.555992126464844" width="23.287885665893555" height="26.892000198364258" />
+            <vector id="12:268" name="Vector" x="56.05199432373047" y="37.90802001953125" width="23.91983985900879" height="27.540002822875977" />
+            <vector id="12:269" name="Vector" x="82.10159301757812" y="37.90802001953125" width="33.825599670410156" height="26.892000198364258" />
+            <vector id="12:270" name="Vector" x="129.53517150878906" y="37.90802001953125" width="33.825599670410156" height="26.892000198364258" />
+            <vector id="12:271" name="Vector" x="164.98080444335938" y="37.90802001953125" width="23.91984748840332" height="27.540002822875977" />
+            <vector id="12:272" name="Vector" x="202.11119079589844" y="37.90802001953125" width="24.32468605041504" height="27.540002822875977" />
+            <vector id="12:273" name="Vector" x="227.447998046875" y="37.90802001953125" width="23.7816104888916" height="27.540002822875977" />
+            <vector id="12:274" name="Vector" x="252.52560424804688" y="37.90802001953125" width="26.243976593017578" height="27.540002822875977" />
+            <vector id="12:275" name="Vector" x="280.5191955566406" y="37.90802001953125" width="33.82561492919922" height="26.892000198364258" />
+            <vector id="12:276" name="Vector" x="316.41839599609375" y="37.90802001953125" width="24.1055965423584" height="37.907997131347656" />
+            <vector id="12:277" name="Vector" x="341.8847961425781" y="37.90802001953125" width="24.324684143066406" height="27.540002822875977" />
+            <vector id="12:278" name="Vector" x="367.6752014160156" y="37.90802001953125" width="23.263193130493164" height="26.892000198364258" />
+            <vector id="12:279" name="Vector" x="393.2063903808594" y="31.557592391967773" width="23.263193130493164" height="33.242401123046875" />
+            <vector id="12:280" name="Vector" x="418.089599609375" y="37.90802001953125" width="24.324684143066406" height="27.540002822875977" />
+          </frame>
+        </frame>
+        <text id="12:281" name="Descrição" x="0" y="122.239990234375" width="1188" height="28" />
+      </frame>
+      <frame id="1:2926" name="Filtro de plataforma" x="1020" y="100.80000305175781" width="292" height="54">
+        <frame id="1:2927" name="Instagram" x="6" y="6" width="136" height="42">
+          <frame id="1:2928" name="Phosphor / instagram-logo / duotone" x="10" y="11" width="20" height="20" />
+          <text id="1:2931" name="Plataforma" x="38" y="10" width="80" height="22" />
+        </frame>
+        <frame id="1:2932" name="TikTok" x="150" y="6" width="136" height="42">
+          <frame id="1:2933" name="Phosphor / tiktok-logo / duotone" x="10" y="11" width="20" height="20" />
+          <text id="1:2936" name="Plataforma" x="38" y="10" width="51" height="22" />
+        </frame>
+      </frame>
+    </frame>
+    <instance id="26:571" name="Público | Instagram / TikTok" x="64" y="266.79998779296875" width="1312" height="506.6000061035156" />
+  </frame>
+  <frame id="13:2" name="04 | Conteúdos em destaque" x="0" y="2550.9599609375" width="1440" height="964.5999755859375">
+    <frame id="13:3" name="Introdução dos conteúdos" x="64" y="88" width="1312" height="176.60000610351562">
+      <frame id="26:178" name="Label da seção | CONTEÚDO" x="0" y="0" width="1312" height="20">
+        <ellipse id="26:179" name="Ponto de cor" x="0" y="5.5" width="9" height="9" />
+        <text id="26:180" name="Seção" x="19" y="0" width="300" height="20" />
+      </frame>
+      <frame id="13:5" name="Um pouco do meu universo | Rayton vetorial" x="0" y="36" width="614.9520263671875" height="93.5999984741211">
+        <frame id="13:6" name="Lettering Rayton Brink | content" x="0" y="0" width="614.9520263671875" height="93.5999984741211">
+          <vector id="13:7" name="Vector" x="1.2239999771118164" y="35.06399917602539" width="22.608001708984375" height="37.656002044677734" />
+          <vector id="13:8" name="Vector" x="26.280000686645508" y="42.119998931884766" width="37.58399963378906" height="29.880001068115234" />
+          <vector id="13:9" name="Vector" x="78.98400115966797" y="42.119998931884766" width="26.78399658203125" height="42.119998931884766" />
+          <vector id="13:10" name="Vector" x="107.27999877929688" y="42.119998931884766" width="29.160003662109375" height="30.60000228881836" />
+          <vector id="13:11" name="Vector" x="138.24000549316406" y="42.84000015258789" width="25.87541961669922" height="29.880001068115234" />
+          <vector id="13:12" name="Vector" x="165.24000549316406" y="42.119998931884766" width="26.423995971679688" height="30.60000228881836" />
+          <vector id="13:13" name="Vector" x="193.10400390625" y="42.119998931884766" width="29.160003662109375" height="30.60000228881836" />
+          <vector id="13:14" name="Vector" x="236.5919952392578" y="35.06399917602539" width="26.784011840820312" height="37.656002044677734" />
+          <vector id="13:15" name="Vector" x="265.5360107421875" y="42.119998931884766" width="29.160003662109375" height="30.60000228881836" />
+          <vector id="13:16" name="Vector" x="309.45599365234375" y="42.119998931884766" width="37.584014892578125" height="29.880001068115234" />
+          <vector id="13:17" name="Vector" x="348.8399963378906" y="42.119998931884766" width="26.577592849731445" height="30.60000228881836" />
+          <vector id="13:18" name="Vector" x="377.6400146484375" y="42.84000015258789" width="25.87541961669922" height="29.880001068115234" />
+          <vector id="13:19" name="Vector" x="417.8160095214844" y="42.84000015258789" width="25.87542152404785" height="29.880001068115234" />
+          <vector id="13:20" name="Vector" x="445.32000732421875" y="42.119998931884766" width="25.847991943359375" height="29.880001068115234" />
+          <vector id="13:21" name="Vector" x="472.8240051269531" y="34.055999755859375" width="9.7919921875" height="37.944000244140625" />
+          <vector id="13:22" name="Vector" x="483.18994140625" y="42.84000015258789" width="24.052104949951172" height="29.15999984741211" />
+          <vector id="13:23" name="Vector" x="508.0320129394531" y="42.119998931884766" width="26.57756233215332" height="30.60000228881836" />
+          <vector id="13:24" name="Vector" x="536.9760131835938" y="42.119998931884766" width="23.019386291503906" height="29.880001068115234" />
+          <vector id="13:25" name="Vector" x="561.0960083007812" y="42.119998931884766" width="22.17596435546875" height="30.60000228881836" />
+          <vector id="13:26" name="Vector" x="585.072265625" y="42.1199951171875" width="29.15997314453125" height="30.60000228881836" />
+        </frame>
+      </frame>
+      <text id="13:27" name="Descrição" x="0" y="145.60000610351562" width="1150" height="31" />
+    </frame>
+    <instance id="20:139" name="Carrossel circular | Conteúdos" x="0" y="296.6000061035156" width="1440" height="580" />
+  </frame>
+  <frame id="13:56" name="05 | Parcerias e contato" x="0" y="3515.56005859375" width="1440" height="1353.263671875">
+    <frame id="1:2940" name="Frame 5" x="16" y="16" width="1408" height="1321.263671875">
+      <frame id="13:94" name="Mascote original" x="802" y="-47.56005859375" width="590" height="613">
+        <frame id="13:95" name="Camada 1" x="0.000011739844921976328" y="0" width="589.997314453125" height="743.9931640625">
+          <frame id="13:96" name="Group" x="0.000011739844921976328" y="0" width="589.997314453125" height="743.9931640625">
+            <vector id="13:97" name="Vector" x="0.000022931539206183515" y="9.016733169555664" width="589.997314453125" height="734.976318359375" />
+            <frame id="13:98" name="Group" x="85.71802931796992" y="13.526155471801758" width="421.15924072265625" height="170.71717834472656">
+              <vector id="13:99" name="Vector" x="85.71802241795376" y="13.925534456968307" width="145.884033203125" height="170.3179168701172" />
+              <vector id="13:100" name="Vector" x="357.16544753086055" y="13.526272701128619" width="149.71180725097656" height="170.193603515625" />
+            </frame>
+            <vector id="13:101" name="Vector" x="345.5262263394543" y="211.29434204101562" width="130.33328247070312" height="101.97644805908203" />
+            <vector id="13:102" name="Vector" x="112.66448622714961" y="209.53965759277344" width="128.58700561523438" height="103.4398193359375" />
+            <vector id="13:103" name="Vector" x="243.3193171597668" y="556.7112426757812" width="104.41678619384766" height="17.82252311706543" />
+            <vector id="13:104" name="Vector" x="407.3320124722668" y="676.1683959960938" width="15.844075202941895" height="46.66775131225586" />
+            <vector id="13:105" name="Vector" x="373.35319167148555" y="675.4452514648438" width="16.014240264892578" height="45.01679992675781" />
+            <vector id="13:106" name="Vector" x="276.5511286832043" y="0" width="27.67286491394043" height="33.041526794433594" />
+            <vector id="13:107" name="Vector" x="217.80118971836055" y="694.8272094726562" width="16.65601921081543" height="45.41438293457031" />
+            <vector id="13:108" name="Vector" x="184.33132582675898" y="696.994140625" width="15.284311294555664" height="46.42570877075195" />
+            <vector id="13:109" name="Vector" x="30.725370702857617" y="134.33901977539062" width="24.631105422973633" height="32.32188034057617" />
+            <vector id="13:110" name="Vector" x="533.5601313687512" y="134.29225158691406" width="25.394668579101562" height="31.954275131225586" />
+            <vector id="13:111" name="Vector" x="324.49918776523555" y="17.82560920715332" width="30.46978759765625" height="18.839773178100586" />
+            <vector id="13:112" name="Vector" x="240.38436537754023" y="10.115785598754883" width="14.260080337524414" height="38.559906005859375" />
+            <vector id="13:113" name="Vector" x="6.3667686558910646" y="153.53042602539062" width="25.711483001708984" height="29.07011604309082" />
+            <vector id="13:114" name="Vector" x="557.8446772671887" y="154.31423950195312" width="25.461305618286133" height="28.014074325561523" />
+            <vector id="13:115" name="Vector" x="6.397183714027051" y="155.6800537109375" width="0.874580442905426" height="1.5481336116790771" />
+            <vector id="13:116" name="Vector" x="243.6585047818371" y="222.88853454589844" width="102.6598892211914" height="62.01519775390625" />
+            <vector id="13:117" name="Vector" x="335.72404128086055" y="93.83517456054688" width="37.30592727661133" height="24.20006561279297" />
+            <vector id="13:118" name="Vector" x="216.87154799472773" y="93.69139862060547" width="37.347713470458984" height="24.727018356323242" />
+            <vector id="13:119" name="Vector" x="274.01041823398555" y="263.1732482910156" width="42.42585372924805" height="16.01508331298828" />
+            <frame id="13:120" name="Group" x="266.54179030429805" y="186.1088104248047" width="56.871002197265625" height="36.81731414794922" />
+            <frame id="13:123" name="Group" x="221.25935011875117" y="135.68145751953125" width="40.476497650146484" height="51.988548278808594" />
+            <frame id="13:127" name="Group" x="327.5370905972668" y="135.3090362548828" width="40.697669982910156" height="51.97181701660156" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1:2722" name="Frame 1" x="0" y="80" width="1408" height="1217.263671875">
+        <frame id="13:57" name="Introdução de parcerias" x="48" y="0" width="1312" height="146.39999389648438">
+          <frame id="26:181" name="Label da seção | PARCERIAS" x="0" y="0" width="1312" height="20">
+            <ellipse id="26:182" name="Ponto de cor" x="0" y="5.5" width="9" height="9" />
+            <text id="26:183" name="Seção" x="19" y="0" width="300" height="20" />
+          </frame>
+          <frame id="13:59" name="Vamos criar juntos? | Rayton vetorial" x="0" y="32" width="559.9439697265625" height="114.4000015258789">
+            <frame id="13:60" name="Lettering Rayton Brink | contact" x="0" y="0" width="559.9439697265625" height="114.4000015258789">
+              <vector id="13:61" name="Vector" x="0.4865882396697998" y="42.85599899291992" width="30.81452178955078" height="45.14400100708008" />
+              <vector id="13:62" name="Vector" x="32.64799880981445" y="51.47999954223633" width="33.03352737426758" height="37.39999771118164" />
+              <vector id="13:63" name="Vector" x="67.6719970703125" y="51.47999954223633" width="45.936004638671875" height="36.52000045776367" />
+              <vector id="13:64" name="Vector" x="115.80799865722656" y="51.47999954223633" width="35.63999938964844" height="37.39999771118164" />
+              <vector id="13:65" name="Vector" x="153.6479949951172" y="51.47999954223633" width="27.10400390625" height="37.39999771118164" />
+              <vector id="13:66" name="Vector" x="198.61599731445312" y="51.47999954223633" width="32.29600524902344" height="37.39999771118164" />
+              <vector id="13:67" name="Vector" x="233.28799438476562" y="51.47999954223633" width="28.134849548339844" height="36.52000045776367" />
+              <vector id="13:68" name="Vector" x="262.1520080566406" y="41.624000549316406" width="11.967987060546875" height="46.375999450683594" />
+              <vector id="13:69" name="Vector" x="275.6159973144531" y="51.47999954223633" width="33.03352355957031" height="37.39999771118164" />
+              <vector id="13:70" name="Vector" x="310.6400146484375" y="51.47999954223633" width="28.13484764099121" height="36.52000045776367" />
+              <vector id="13:71" name="Vector" x="343.90399169921875" y="41.624000549316406" width="24.0030574798584" height="62.21599578857422" />
+              <vector id="13:72" name="Vector" x="369.68798828125" y="52.36000061035156" width="31.62553596496582" height="36.519996643066406" />
+              <vector id="13:73" name="Vector" x="403.3039855957031" y="51.47999954223633" width="31.592010498046875" height="36.52000045776367" />
+              <vector id="13:74" name="Vector" x="436.21600341796875" y="42.65599822998047" width="26.31201171875" height="46.2239990234375" />
+              <vector id="13:75" name="Vector" x="464.2879943847656" y="51.47999954223633" width="35.6400146484375" height="37.39999771118164" />
+              <vector id="13:76" name="Vector" x="502.12799072265625" y="51.47999954223633" width="27.10400390625" height="37.39999771118164" />
+              <vector id="13:77" name="Vector" x="531.0771484375" y="41.97600173950195" width="28.426849365234375" height="46.37599563598633" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="13:78" name="Formatos e mascote" x="48" y="194.39999389648438" width="1312" height="240">
+          <frame id="13:79" name="Possibilidades de parceria" x="0" y="0" width="824" height="240">
+            <frame id="13:80" name="Formatos 1" x="0" y="0" width="824" height="104">
+              <frame id="13:81" name="Reels" x="0" y="0" width="396" height="104">
+                <text id="13:82" name="Formato" x="0" y="0" width="396" height="36" />
+                <text id="13:83" name="Entrega" x="0" y="46" width="396" height="58" />
+              </frame>
+              <frame id="13:84" name="Stories" x="428" y="0" width="396" height="104">
+                <text id="13:85" name="Formato" x="0" y="0" width="396" height="36" />
+                <text id="13:86" name="Entrega" x="0" y="46" width="396" height="58" />
+              </frame>
+            </frame>
+            <frame id="13:87" name="Formatos 2" x="0" y="136" width="824" height="104">
+              <frame id="13:88" name="Eventos e experiências" x="0" y="0" width="396" height="104">
+                <text id="13:89" name="Formato" x="0" y="0" width="396" height="36" />
+                <text id="13:90" name="Entrega" x="0" y="46" width="396" height="58" />
+              </frame>
+              <frame id="13:91" name="TikTok" x="428" y="0" width="396" height="104">
+                <text id="13:92" name="Formato" x="0" y="0" width="396" height="36" />
+                <text id="13:93" name="Entrega" x="0" y="46" width="396" height="58" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="13:131" name="Contato comercial" x="48" y="482.3999938964844" width="1312" height="398">
+          <text id="13:132" name="Convite" x="40" y="40" width="1232" height="45" />
+          <text id="13:133" name="Briefing" x="40" y="113" width="1000" height="62" />
+          <frame id="13:134" name="Canais de contato" x="40" y="203" width="1182" height="103">
+            <frame id="13:135" name="WhatsApp" x="0" y="0" width="378" height="103">
+              <frame id="13:136" name="Ícone original | WhatsApp" x="24" y="35.5" width="32" height="32" />
+              <frame id="13:138" name="Canal e endereço" x="72" y="24" width="282" height="55">
+                <text id="13:139" name="Canal" x="0" y="0" width="282" height="28" />
+                <text id="13:140" name="Destino" x="0" y="31" width="282" height="24" />
+              </frame>
+            </frame>
+            <frame id="13:141" name="Instagram" x="402" y="0" width="378" height="103">
+              <frame id="13:142" name="Ícone original | Instagram" x="24" y="35.5" width="32" height="32" />
+              <frame id="13:144" name="Canal e endereço" x="72" y="24" width="282" height="55">
+                <text id="13:145" name="Canal" x="0" y="0" width="282" height="28" />
+                <text id="13:146" name="Destino" x="0" y="31" width="282" height="24" />
+              </frame>
+            </frame>
+            <frame id="13:147" name="TikTok" x="804" y="0" width="378" height="103">
+              <frame id="13:148" name="Ícone original | TikTok" x="24" y="35.5" width="32" height="32" />
+              <frame id="13:150" name="Canal e endereço" x="72" y="24" width="282" height="55">
+                <text id="13:151" name="Canal" x="0" y="0" width="282" height="28" />
+                <text id="13:152" name="Destino" x="0" y="31" width="282" height="24" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="13:153" name="Condições" x="40" y="334" width="1232" height="24" />
+        </frame>
+        <frame id="1:2941" name="Dotinha | Marca original fullsize" x="48" y="928.4000244140625" width="1312" height="288.8636474609375">
+          <vector id="1:2942" name="Vector" x="908.9654541015625" y="13.257935523986816" width="177.61410522460938" height="253.03292846679688" />
+          <vector id="1:2943" name="Vector" x="1113.0460205078125" y="61.47771072387695" width="198.9564666748047" height="227.5849609375" />
+          <vector id="1:2944" name="Vector" x="700.2461547851562" y="46.65961456298828" width="176.98072814941406" height="219.5952911376953" />
+          <vector id="1:2945" name="Vector" x="435.0563659667969" y="7.692049980163574" width="148.05477905273438" height="263.0934753417969" />
+          <vector id="1:2946" name="Vector" x="593.8665771484375" y="82.10965728759766" width="74.71830749511719" height="184.1126708984375" />
+          <vector id="1:2947" name="Vector" x="598.8261108398438" y="0.1451416015625" width="75.2107925415039" height="73.36321258544922" />
+          <vector id="1:2948" name="Vector" x="0" y="8.394098281860352" width="207.81101989746094" height="257.85015869140625" />
+          <vector id="1:2949" name="Vector" x="231.70480346679688" y="61.344398498535156" width="200.44195556640625" height="221.7299346923828" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</frame>
