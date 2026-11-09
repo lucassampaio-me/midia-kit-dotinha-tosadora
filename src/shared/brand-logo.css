@@ -1,0 +1,6 @@
+/* O tamanho fica em cada página; a proporção do logo é 180 × 129,13. */
+.brand-logo { display: block; position: relative; flex: none; aspect-ratio: 180 / 129.13; }
+.brand-logo__mascot-clip { position: absolute; inset: 0 23.12% 30.39% 14.66%; overflow: hidden; }
+.brand-logo__mascot { width: 100%; height: auto; mask-size: 100% 69.6%; mask-repeat: no-repeat; }
+.brand-logo__part { position: absolute; }
+.brand-logo__part img { width: 100%; height: 100%; }
