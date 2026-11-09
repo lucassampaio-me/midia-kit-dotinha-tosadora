@@ -20,7 +20,7 @@ No fim, informe pendências, arquivos e verificações. Não faça commits.
 ## Implementação e comportamento
 Seção id parcerias com margem externa creme e card marrom arredondado. Título Vamos criar juntos?, quatro formatos (Reels, Stories, Eventos e experiências, TikTok), mascote original e contato comercial.
 Desktop formatos em grade com mascote grande à direita; mobile lista vertical e mascote central encostada no contato, conforme o frame atual. Não posicionar mascote sobre texto.
-Card creme Conte sua ideia, parágrafo de briefing, três canais, observação sobre orçamento separado e marca original fullsize no rodapé.
+Card creme Conte sua ideia, parágrafo de briefing, três canais e marca original fullsize no rodapé.
 Links atuais do Figma: WhatsApp https://wa.me/5511980328462, Instagram https://www.instagram.com/dotinha.tosadora/ e TikTok https://www.tiktok.com/@dotinha.tosadora. Exibir telefone (11) 98032-8462 e perfil @dotinha.tosadora.
 Sem formulário, backend, preços ou envio de mensagens. Links externos usam rel noopener noreferrer quando abrem nova aba.
 Exportar mascote e marca originais a partir dos assets recebidos. Preservar recorte e proporção, sem desenhar substitutos.

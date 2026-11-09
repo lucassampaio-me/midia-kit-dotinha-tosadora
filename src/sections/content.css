@@ -58,11 +58,12 @@
   position: relative;
   pointer-events: auto;
 }
-.content-cover img {
+.content-cover__media {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: inherit;
+}
+.content-cover img {
   user-select: none;
   -webkit-user-drag: none;
 }
@@ -151,7 +152,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 84px;
+  min-width: 84px;
   min-height: 32px;
 }
 .content-dot {

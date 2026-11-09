@@ -32,7 +32,7 @@
 .hero-carousel .hero-slide { width: 280px; height: auto; opacity: .72; margin-top: 56px; }
 .hero-slide.swiper-slide-active, .hero-slide:first-child:not([data-swiper-slide-index]) { opacity: 1; margin-top: 0; }
 .hero-carousel.swiper-initialized .hero-slide:not(.swiper-slide-active) { opacity: .72; margin-top: 56px; }
-.hero-cover { width: 280px; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 24px; }
+.hero-cover { width: 280px; height: auto; aspect-ratio: 9 / 16; border-radius: 24px; }
 .hero-progress { display: grid; place-items: center; position: absolute; z-index: 2; left: 212px; top: 430px; width: 52px; height: 52px; border-radius: 50%; background: var(--cream); pointer-events: none; }
 .hero-progress > img { width: 44px; height: 44px; grid-area: 1 / 1; }
 .hero-autoplay-toggle { display: grid; place-items: center; grid-area: 1 / 1; z-index: 1; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; color: var(--brown); background: transparent; cursor: pointer; pointer-events: auto; }

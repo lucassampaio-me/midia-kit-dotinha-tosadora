@@ -19,3 +19,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+
+# Vídeos baixados do Instagram (arquivos grandes, mantidos só localmente).
+videos-instagram/

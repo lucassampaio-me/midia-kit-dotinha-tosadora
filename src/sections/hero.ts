@@ -3,6 +3,9 @@ import { assets } from '../shared/assets';
 import { createCarousel } from '../shared/carousel';
 import { brandLogo } from '../shared/brand-logo';
 import type Swiper from 'swiper';
+import { openVideo } from '../shared/modal';
+import { escapeHtml } from '../shared/ui';
+import { heroReels, playTake, reelMedia, reelPaths, stopTake } from '../shared/videos';
 
 const group = 'hero-desktop';
 const asset = (name: string) => assets(group, name);
@@ -43,7 +46,7 @@ export function render(): string {
         </div>
         <div class="hero-carousel-shell">
           <div class="hero-carousel swiper" tabindex="0" aria-label="Portfólio de banho e tosa. Use as setas para navegar.">
-            <div class="hero-track swiper-wrapper">${[0, 1, 2, 0, 1, 2].map((i) => `<div class="hero-slide swiper-slide" data-hero-index="${i}"><picture><source media="(max-width:799px)" srcset="${assets('hero-mobile', 'imgVideo' + i)}" /><img class="hero-cover" src="${asset('imgVideo' + i)}" alt="${['Cão de pelagem clara com bandana colorida após a tosa', 'Cão de pelagem clara com laços e bandana rosa', 'Cão com bandana colorida após o banho e a tosa'][i]}" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} width="280" height="498" /></picture><button class="hero-video-play" type="button" aria-label="Reproduzir vídeo ${i + 1}"><img src="/assets/phosphor-play-duotone.svg" width="28" height="28" alt="" /></button></div>`).join('')}</div>
+            <div class="hero-track swiper-wrapper">${[...heroReels, ...heroReels].map((reel, i) => `<div class="hero-slide swiper-slide" data-hero-index="${i % heroReels.length}" data-swiper-autoplay="${Math.round(reel.take * 1000)}">${reelMedia(reel, 'hero-cover', i === 0 ? 'fetchpriority="high"' : 'loading="lazy"')}<button class="hero-video-play" type="button" aria-label="Assistir ao vídeo: ${escapeHtml(reel.title)}"><img src="/assets/phosphor-play-duotone.svg" width="28" height="28" alt="" /></button></div>`).join('')}</div>
           </div>
           <div class="hero-progress"><svg class="hero-progress__ring" width="52" height="52" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="20" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="3" /><circle class="hero-progress__stroke" cx="26" cy="26" r="20" pathLength="100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="100" stroke-dashoffset="100" /></svg><button class="hero-autoplay-toggle" type="button" aria-label="Pausar troca automática de imagens" hidden><img class="hero-autoplay-toggle__icon" src="/assets/phosphor-pause-duotone.svg" width="18" height="18" alt="" /></button></div>
         </div>
@@ -55,6 +58,16 @@ export function render(): string {
 export function init(root: HTMLElement): () => void {
   const element = root.querySelector<HTMLElement>('.hero-carousel');
   if (!element) return () => {};
+  const events = new AbortController();
+  let visible = true;
+  let modalOpen = false;
+  // Só o slide ativo toca o take, e apenas com o carrossel visível e sem modal aberto.
+  const syncTakes = (instance: Swiper) => {
+    instance.slides.forEach((slide, index) => {
+      if (index === instance.activeIndex && visible && !modalOpen && !document.hidden) playTake(slide);
+      else stopTake(slide);
+    });
+  };
   const swiper = createCarousel(element, {
     slidesPerView: 'auto',
     spaceBetween: 24,
@@ -68,12 +81,31 @@ export function init(root: HTMLElement): () => void {
         instance.slides.forEach(slide => {
           const play = slide.querySelector<HTMLButtonElement>('.hero-video-play');
           if (play) play.tabIndex = slide === instance.slides[instance.activeIndex] ? 0 : -1;
-          slide.setAttribute('aria-label', `Vídeo ${Number(slide.dataset.heroIndex) + 1} de 3`);
+          slide.setAttribute('aria-label', `Vídeo ${Number(slide.dataset.heroIndex) + 1} de ${heroReels.length}`);
         });
+        syncTakes(instance);
       },
     },
   });
-  return () => swiper.destroy(true, true);
+  syncTakes(swiper);
+  element.addEventListener('click', event => {
+    const play = event.target instanceof Element ? event.target.closest<HTMLElement>('.hero-video-play') : null;
+    const slide = play?.closest<HTMLElement>('.hero-slide');
+    if (!slide) return;
+    const reel = heroReels[Number(slide.dataset.heroIndex)];
+    const paths = reelPaths(reel);
+    openVideo({ title: reel.title, poster: paths.thumb, url: paths.full, link: paths.instagram });
+  }, { signal: events.signal });
+  document.addEventListener('dotinha:modal', event => { modalOpen = Boolean((event as CustomEvent<{ open: boolean }>).detail.open); syncTakes(swiper); }, { signal: events.signal });
+  document.addEventListener('visibilitychange', () => syncTakes(swiper), { signal: events.signal });
+  const observer = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; syncTakes(swiper); }, { threshold: 0.2 });
+  observer.observe(element);
+  return () => {
+    events.abort();
+    observer.disconnect();
+    swiper.slides.forEach(stopTake);
+    swiper.destroy(true, true);
+  };
 }
 
 /** Activated by the motion phase, after the complete static page is mounted. */

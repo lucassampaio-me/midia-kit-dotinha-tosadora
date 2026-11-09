@@ -57,7 +57,7 @@ Informações reaproveitadas do catálogo: nome Vitória Dota, atuação como to
 - Identifique se os dados de público descrevem seguidores ou contas alcançadas. Não deduza que todos são tutores ou profissionais do setor pet.
 - Para desempenho habitual, a estrutura prevê mediana de uma amostra identificada de Reels e de telas de stories. Stories devem ser medidos após completar 24 horas. Informe eventual impulsionamento.
 - O período dos prints teve um grande pico viral e crescimento recente. Os milhões de visualizações não devem ser apresentados como entrega habitual ou promessa de uma campanha.
-- As fotos atuais dos três cards vieram do portfólio do catálogo. Antes de associar links e métricas, substitua pelas capas das publicações correspondentes.
+- No site, as fotos provisórias dos cards foram substituídas por oito Reels reais, listados em `src/shared/videos.ts`. Cada card usa a capa, o vídeo e o link da própria publicação, e as métricas vêm de `prints-posts-selecionados/metricas.md`, acumuladas até 9 de novembro de 2026. Os vídeos originais ficam em `videos-instagram/`, fora do Git, e os arquivos do site são gerados por `scripts/build-videos.sh`.
 - A recomendação combinada é atualizar os dados mensalmente e revisar antes de enviar o material.
 
 ## Mídia kit e orçamento são separados

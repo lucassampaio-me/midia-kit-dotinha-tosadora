@@ -47,7 +47,6 @@ export function render(): string {
             <h3 class="contact-box-title">Conte sua ideia</h3>
             <p class="contact-brief">Compartilhe o objetivo da campanha, as entregas desejadas e o prazo para receber uma proposta.</p>
             <div class="contact-channels" aria-label="Canais de contato">${renderChannels()}</div>
-            <p class="contact-conditions">Escopo, valores, prazos e direitos de uso no orçamento separado.</p>
           </div>
         </div>
         ${renderBrand()}

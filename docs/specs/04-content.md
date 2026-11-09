@@ -19,6 +19,7 @@ No fim, informe pendências, arquivos e verificações. Não faça commits.
 
 ## Implementação e comportamento
 Seção creme id conteudos, título Um pouco do meu universo e descrição. Carrossel circular com três conteúdos, capa ativa 9:16 e cards laterais menores/opacos.
+Atualização de 9 de novembro de 2026: o carrossel passou a ter oito Reels reais, definidos em src/shared/videos.ts. Os itens inativos mostram a capa, o item ativo toca um take curto e mudo, e Visualizar vídeo abre o vídeo completo em WebM com link para o Instagram. Os textos e as métricas de cada card estão em content.ts.
 Desktop: capa em foco 270 x 480 e card de texto à direita com sobreposição de 20 px; laterais recortadas nas bordas. Mobile: capa central e card de texto abaixo sobreposto, seguindo referência de 390, não apenas reduzindo o desktop.
 Usar createCarousel. Controles Anterior/Próximo, paginação clicável e clique nos itens laterais mudam foco. Texto, resultado e metadados acompanham o item ativo. Não usar GSAP para posicionar.
 Visualizar vídeo chama openVideo compartilhado. Usar URL apenas se existir fonte real correspondente. Sem vídeo disponível, dialog informa pendência de forma clara. Não ligar fotos provisórias a resultados de outro post.

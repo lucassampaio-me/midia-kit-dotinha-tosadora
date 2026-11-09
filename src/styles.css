@@ -40,14 +40,22 @@ section{scroll-margin-top:24px}
 .platform-tabs img{width:20px;height:20px}
 .platform-tabs--light{background:rgba(255,255,235,.12);border-color:rgba(255,255,235,.3);color:var(--cream)}
 .platform-tabs--light [aria-selected=true]{color:var(--brown)}
-.video-modal{width:min(760px,calc(100vw - 32px));max-height:90dvh;padding:24px;border:0;border-radius:24px;background:var(--cream);color:var(--brown);overflow:auto}
+.video-modal{width:min(560px,calc(100vw - 32px));max-height:94dvh;padding:24px;border:0;border-radius:24px;background:var(--cream);color:var(--brown);overflow:auto}
 .video-modal::backdrop{background:rgba(38,22,12,.72)}
 .video-modal__close{display:block;margin-left:auto;padding:10px 16px;border:1px solid var(--brown);border-radius:999px;background:transparent}
 .video-modal h2{font-size:26px;margin:12px 0 20px}
 .video-modal__poster{width:180px;height:320px;object-fit:cover;border-radius:18px;margin:0 auto 24px}
 .video-modal p{font-size:18px;line-height:1.5;margin-bottom:16px}
-.video-modal video{display:block;max-width:100%;max-height:65vh;margin:auto}
+.video-modal video{display:block;width:auto;max-width:100%;height:min(66dvh,860px);aspect-ratio:9/16;margin:auto;border-radius:18px;background:#26160c;object-fit:contain}
 .video-modal a{display:inline-block;font-weight:700;margin:8px 0}
+.video-modal__link{display:flex!important;width:fit-content;align-items:center;gap:8px;margin:16px auto 0!important;padding:12px 24px;border-radius:14px;background:var(--brown);color:var(--cream);text-decoration:none}
+.video-modal__link:focus-visible,.video-modal__close:focus-visible{outline:3px solid var(--brown);outline-offset:3px}
+/* Capa estática com o take por cima; o take aparece quando começa a tocar. */
+.reel-media{position:relative;display:block;overflow:hidden;aspect-ratio:9/16}
+.reel-media__thumb,.reel-media__take{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+.reel-media__take{position:absolute;inset:0;opacity:0;transition:opacity 240ms ease;pointer-events:none}
+.reel-media.is-playing .reel-media__take{opacity:1}
+@media(prefers-reduced-motion:reduce){.reel-media__take{display:none}}
 @media(max-width:799px){
  html{scroll-padding-bottom:calc(100px + env(safe-area-inset-bottom, 0px))}
  body{padding-bottom:calc(100px + env(safe-area-inset-bottom, 0px))}

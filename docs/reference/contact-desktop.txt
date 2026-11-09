@@ -128,9 +128,6 @@ export default function Component05ParceriasEContato() {
                 </div>
               </a>
             </div>
-            <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[17px] w-[1232px]" data-node-id="13:153" style={{ fontVariationSettings: '"opsz" 14' }}>
-              Escopo, valores, prazos e direitos de uso no orçamento separado.
-            </p>
           </div>
           <div className="aspect-[1408/310] overflow-clip relative shrink-0 w-full" data-node-id="1:2941" data-name="Dotinha | Marca original fullsize">
             <div className="absolute inset-[4.59%_17.18%_7.81%_69.28%]" data-node-id="1:2942" data-name="Vector">

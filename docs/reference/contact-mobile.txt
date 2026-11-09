@@ -115,9 +115,6 @@ export default function Component05ParceriasEContato() {
                 </div>
               </a>
             </div>
-            <p className="[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[1.4] relative shrink-0 text-[#633b22] text-[14px] w-[286px]" data-node-id="35:1209" style={{ fontVariationSettings: '"opsz" 14' }}>
-              Escopo, valores, prazos e direitos de uso no orçamento separado.
-            </p>
           </div>
         </div>
         <div className="h-[71.809px] overflow-clip relative shrink-0 w-[326px]" data-node-id="35:1210" data-name="Dotinha | Rodapé fullsize original">

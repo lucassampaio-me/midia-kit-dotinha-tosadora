@@ -1,66 +1,78 @@
 import './content.css';
 import { assets } from '../shared/assets';
+import { contentReels, formatDate, playTake, reelMedia, reelPaths, stopTake } from '../shared/videos';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { openVideo } from '../shared/modal';
 import { eyebrow, escapeHtml, sectionTitle } from '../shared/ui';
 
-type FeaturedContent = {
-  title: string;
-  description: string;
-  cover: string;
-  result: string;
-  published: string;
-  consulted: string;
-  category: string;
-  videoUrl?: string;
+type ContentCopy = { description: string; result: string; category: string };
+
+// Métricas acumuladas desde a publicação até a consulta, transcritas em
+// prints-posts-selecionados/metricas.md. Os nomes seguem os indicadores do Instagram.
+const consulted = '09/11/2026';
+const copy: Record<string, ContentCopy> = {
+  DexdqWWPZJa: {
+    description: 'O banho da Kira, uma cachorra de porte grande, virou um momento divertido na banheira. É o vídeo de maior repercussão entre os selecionados e representa um pico viral, não a entrega habitual do perfil.',
+    result: '8.260.931 visualizações, 814 mil curtidas e 39,1 mil compartilhamentos.',
+    category: 'Publicação própria',
+  },
+  DY0rCRUx7P4: {
+    description: 'Um golden retriever grande e pesado passa pelo banho completo, da lavagem à secagem, em um vídeo que mostra a rotina real de quem trabalha com cães de porte grande.',
+    result: '856.011 visualizações, 64,5 mil curtidas e 2,7 mil compartilhamentos.',
+    category: 'Publicação própria',
+  },
+  DbTd0mqRbNr: {
+    description: 'Um yorkshire sonolento na mesa de tosa mostra, com humor, como é atender o primeiro horário do pet shop. O vídeo teve a maior taxa de compartilhamentos entre os selecionados: 3,7%.',
+    result: '550.465 visualizações, 54,5 mil curtidas e 13,9 mil compartilhamentos.',
+    category: 'Publicação própria',
+  },
+  'DaEf0-5xv9u': {
+    description: 'O retoque de cor rosa na cauda de um spitz mostra a técnica de coloração e apresenta o produto usado em uma situação real de trabalho. Quem assiste fica em média 56 segundos no vídeo.',
+    result: '45.154 visualizações, 3 mil curtidas e 233 compartilhamentos.',
+    category: 'Publicação própria',
+  },
+  DcESkYsxehd: {
+    description: 'Na visita ao estande da Pross na Pet South America, Vitória mostra os produtos de banho e tosa da marca e o espaço montado para os profissionais do setor.',
+    result: '45.219 visualizações, 378 curtidas e 25 compartilhamentos.',
+    category: 'Colaboração com @pross.groomer',
+  },
+  Db9m0XHR9Wg: {
+    description: 'Os bastidores do primeiro dia da Pet South America 2026, uma das principais feiras do setor pet, com os estandes e as novidades que chamaram a atenção de Vitória.',
+    result: '41.075 visualizações, 889 curtidas e 152 compartilhamentos.',
+    category: 'Publicação própria',
+  },
+  DcAWvG0uu_a: {
+    description: 'Na visita ao estande da Pet Nutrition, Vitória apresenta o lançamento da linha Vie e participa das ativações preparadas pela marca para o público da feira.',
+    result: '39.063 visualizações, 401 curtidas e 7 compartilhamentos.',
+    category: 'Colaboração com @petnutritionbr',
+  },
+  Dbq80l8vYnE: {
+    description: 'Vitória abre a caixa de produtos que recebeu da Pross e mostra os itens um a um, no formato de recebidos que apresenta a marca dentro da rotina de quem trabalha com banho e tosa.',
+    result: '30.012 visualizações, 556 curtidas e 36 compartilhamentos.',
+    category: 'Colaboração com @pross.groomer',
+  },
 };
 
-// Covers and publication metrics remain provisional, as marked in Figma.
-const featuredContent: FeaturedContent[] = [
-  {
-    title: 'Bastidores do cuidado',
-    description: 'Minha rotina de trabalho mostra os cuidados e os detalhes que fazem parte do banho e da tosa.',
-    cover: 'imgCapaEmFoco916',
-    result: '[Resultado da publicação]',
-    published: '[data]',
-    consulted: '[data]',
-    category: '[Orgânico / parceria]',
-  },
-  {
-    title: 'Transformações',
-    description: 'O antes e depois valoriza a técnica, o resultado do trabalho e a individualidade de cada animal.',
-    cover: 'imgVideoLateral2',
-    result: '[Resultado da publicação]',
-    published: '[data]',
-    consulted: '[data]',
-    category: '[Orgânico / parceria]',
-  },
-  {
-    title: 'Produtos na rotina',
-    description: 'A experiência prática ajuda a apresentar produtos e acessórios em situações reais de uso.',
-    cover: 'imgVideoLateral1',
-    result: '[Resultado da publicação]',
-    published: '[data]',
-    consulted: '[data]',
-    category: '[Orgânico / parceria]',
-  },
-];
-
-const wrapIndex = (index: number): number => ((index % featuredContent.length) + featuredContent.length) % featuredContent.length;
+const wrapIndex = (index: number): number => ((index % contentReels.length) + contentReels.length) % contentReels.length;
 // Two invisible buffer items let the circular sequence recycle outside the stage.
 const offsets = [-4, -3, -2, -1, 0, 1, 2, 3, 4];
 
-function renderSlide(offset: number, slot: number): string {
+function slideContent(index: number): string {
+  const reel = contentReels[index];
+  const text = copy[reel.id];
+  const position = 'Conteúdo ' + (index + 1) + ' de ' + contentReels.length;
+  return '<button class="content-cover" type="button" aria-label="Colocar em foco: ' + escapeHtml(reel.title) + '">' + reelMedia(reel, 'content-cover__media', 'loading="lazy" draggable="false"') + '</button>' +
+    '<div class="content-card-reveal"><div class="content-card"><h3>' + escapeHtml(reel.title) + '</h3>' +
+    '<p class="content-description">' + escapeHtml(text.description) + '</p>' +
+    '<p class="content-result">' + escapeHtml(text.result) + '</p>' +
+    '<div class="content-metadata"><p>Publicado em ' + formatDate(reel.published) + ' · Acumulado até ' + consulted + '</p><p>' + escapeHtml(text.category) + '</p></div>' +
+    '<button class="content-video" type="button" data-content-video="' + index + '" aria-label="Visualizar vídeo: ' + escapeHtml(reel.title) + ' (' + position + ')">Visualizar vídeo</button></div></div>';
+}
+
+function renderSlide(offset: number): string {
   const index = wrapIndex(offset);
-  const item = featuredContent[index];
-  return '<article class="content-slide" data-content-offset="' + offset + '" data-content-index="' + index + '" aria-label="' + escapeHtml(item.title) + '">' +
-    '<button class="content-cover" type="button" aria-label="Colocar em foco: ' + escapeHtml(item.title) + '"><img src="' + assets('content-desktop', item.cover) + '" alt="Capa provisória de ' + escapeHtml(item.title) + '" width="270" height="480" loading="lazy" /></button>' +
-    '<div class="content-card-reveal"><div class="content-card"><h3 id="content-item-' + slot + '">' + escapeHtml(item.title) + '</h3>' +
-    '<p class="content-description">' + escapeHtml(item.description) + '</p>' +
-    '<p class="content-result">' + escapeHtml(item.result) + '</p>' +
-    '<div class="content-metadata"><p>Publicado em ' + escapeHtml(item.published) + ' · Acumulado até ' + escapeHtml(item.consulted) + '</p><p>' + escapeHtml(item.category) + '</p></div>' +
-    '<button class="content-video" type="button" data-content-video="' + index + '" aria-label="Visualizar vídeo: ' + escapeHtml(item.title) + '">Visualizar vídeo</button></div></div></article>';
+  return '<article class="content-slide" data-content-offset="' + offset + '" data-content-index="' + index + '" aria-label="' + escapeHtml(contentReels[index].title) + '">' + slideContent(index) + '</article>';
 }
 
 export function render(): string {
@@ -72,8 +84,8 @@ export function render(): string {
     '<div class="content-carousel">' + offsets.map(renderSlide).join('') + '</div>' +
     '<div class="content-controls"><button class="content-arrow content-prev" type="button" aria-label="Conteúdo anterior">' +
     '<img src="' + assets('content-desktop', 'imgPhosphorArrowLeftDuotone') + '" alt="" width="24" height="24" /></button>' +
-    '<div class="content-pagination" aria-label="Selecionar conteúdo">' + featuredContent.map((item, index) =>
-      '<button class="content-dot" type="button" data-content-page="' + index + '" aria-label="Colocar em foco: ' + escapeHtml(item.title) + '"></button>').join('') + '</div>' +
+    '<div class="content-pagination" aria-label="Selecionar conteúdo">' + contentReels.map((reel, index) =>
+      '<button class="content-dot" type="button" data-content-page="' + index + '" aria-label="Colocar em foco: ' + escapeHtml(reel.title) + '"></button>').join('') + '</div>' +
     '<button class="content-arrow content-next" type="button" aria-label="Próximo conteúdo">' +
     '<img src="' + assets('content-desktop', 'imgPhosphorArrowRightDuotone') + '" alt="" width="24" height="24" /></button></div>' +
     '<p class="content-status sr-only" aria-live="polite" aria-atomic="true"></p></div></section>';
@@ -86,13 +98,29 @@ export function init(root: HTMLElement): () => void {
   gsap.registerPlugin(ScrollTrigger);
   const controller = new AbortController();
   const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const slots = Array.from(carousel.querySelectorAll<HTMLElement>('.content-slide')).map(element => ({
-    element,
-    offset: Number(element.dataset.contentOffset),
-    reveal: element.querySelector<HTMLElement>('.content-card-reveal')!,
-    card: element.querySelector<HTMLElement>('.content-card')!,
-    cover: element.querySelector<HTMLButtonElement>('.content-cover')!,
-  }));
+  type Slot = { element: HTMLElement; offset: number; reveal: HTMLElement; card: HTMLElement; cover: HTMLButtonElement };
+  const bind = (slot: Pick<Slot, 'element' | 'offset'>): Slot => Object.assign(slot, {
+    reveal: slot.element.querySelector<HTMLElement>('.content-card-reveal')!,
+    card: slot.element.querySelector<HTMLElement>('.content-card')!,
+    cover: slot.element.querySelector<HTMLButtonElement>('.content-cover')!,
+  });
+  const slots = Array.from(carousel.querySelectorAll<HTMLElement>('.content-slide')).map(element => bind({ element, offset: Number(element.dataset.contentOffset) }));
+  // With eight items and nine slots, a recycled slot must receive the item for its new position.
+  const refill = (slot: Slot, index: number) => {
+    if (Number(slot.element.dataset.contentIndex) === index) return;
+    stopTake(slot.cover);
+    slot.element.dataset.contentIndex = String(index);
+    slot.element.setAttribute('aria-label', contentReels[index].title);
+    slot.element.innerHTML = slideContent(index);
+    bind(slot);
+    applyCard(slot);
+  };
+  let visible = false;
+  let modalOpen = false;
+  const syncTakes = () => slots.forEach(slot => {
+    if (slot.offset === 0 && visible && !modalOpen && !document.hidden) playTake(slot.cover);
+    else stopTake(slot.cover);
+  });
   const dots = Array.from(section.querySelectorAll<HTMLButtonElement>('[data-content-page]'));
   let active = 0;
   let pending = 0;
@@ -131,14 +159,18 @@ export function init(root: HTMLElement): () => void {
       slot.cover.setAttribute('aria-current', String(current));
     });
     dots.forEach((dot, index) => dot.setAttribute('aria-current', String(index === active)));
-    section.querySelector<HTMLElement>('.content-status')!.textContent = 'Conteúdo ' + (active + 1) + ' de ' + featuredContent.length + ': ' + featuredContent[active].title;
+    section.querySelector<HTMLElement>('.content-status')!.textContent = 'Conteúdo ' + (active + 1) + ' de ' + contentReels.length + ': ' + contentReels[active].title;
+    syncTakes();
+  };
+  const applyCard = (slot: Slot) => {
+    gsap.set(slot.reveal, { width: mobile ? Math.min(342, innerWidth - 48) : slot.offset === 0 ? 460 : 0, clipPath: slot.offset === 0 ? 'inset(0% 0% 0% 0%)' : mobile ? 'inset(0% 0% 100% 0%)' : 'inset(0% 100% 0% 0%)' });
+    gsap.set(slot.card, { opacity: slot.offset === 0 ? 1 : 0, x: slot.offset === 0 ? 0 : -20, y: 0 });
   };
   const settle = () => {
     carousel.style.height = (mobile ? Math.max(650, 232 * 16 / 9 - 80 + Math.max(...slots.map(slot => slot.card.offsetHeight))) : 480) + 'px';
     slots.forEach(slot => {
       gsap.set(slot.element, geometry(slot.offset));
-      gsap.set(slot.reveal, { width: mobile ? Math.min(342, innerWidth - 48) : slot.offset === 0 ? 460 : 0, clipPath: slot.offset === 0 ? 'inset(0% 0% 0% 0%)' : mobile ? 'inset(0% 0% 100% 0%)' : 'inset(0% 100% 0% 0%)' });
-      gsap.set(slot.card, { opacity: slot.offset === 0 ? 1 : 0, x: slot.offset === 0 ? 0 : -20, y: 0 });
+      applyCard(slot);
     });
     sync();
   };
@@ -156,6 +188,7 @@ export function init(root: HTMLElement): () => void {
       if (slot.offset < -4 || slot.offset > 4) {
         slot.offset = direction > 0 ? 4 : -4;
         gsap.set(slot.element, geometry(slot.offset));
+        refill(slot, wrapIndex(active + slot.offset));
       }
     });
     const incoming = slots.find(slot => slot.offset === 0)!;
@@ -197,15 +230,16 @@ export function init(root: HTMLElement): () => void {
     const target = event.target instanceof Element ? event.target : null;
     const video = target?.closest<HTMLButtonElement>('[data-content-video]');
     if (video) {
-      const item = featuredContent[Number(video.dataset.contentVideo)];
-      openVideo({ title: item.title, poster: assets('content-desktop', item.cover), url: item.videoUrl });
+      const reel = contentReels[Number(video.dataset.contentVideo)];
+      const paths = reelPaths(reel);
+      openVideo({ title: reel.title, poster: paths.thumb, url: paths.full, link: paths.instagram });
     } else if (target?.closest('.content-next')) navigate(1);
     else if (target?.closest('.content-prev')) navigate(-1);
     else if (target?.closest('[data-content-page]')) {
       const index = Number(target.closest<HTMLElement>('[data-content-page]')!.dataset.contentPage);
       const delta = wrapIndex(index - active);
       pending = 0;
-      navigate(delta > featuredContent.length / 2 ? delta - featuredContent.length : delta);
+      navigate(delta > contentReels.length / 2 ? delta - contentReels.length : delta);
     } else if (target?.closest('.content-cover')) {
       const element = target.closest<HTMLElement>('.content-slide');
       const slot = slots.find(item => item.element === element)!;
@@ -249,6 +283,10 @@ export function init(root: HTMLElement): () => void {
     if (!entered) gsap.set(slots.map(slot => slot.element), { opacity: 0 });
   };
   window.addEventListener('resize', refreshLayout, { signal: controller.signal });
+  document.addEventListener('dotinha:modal', event => { modalOpen = Boolean((event as CustomEvent<{ open: boolean }>).detail.open); syncTakes(); }, { signal: controller.signal });
+  document.addEventListener('visibilitychange', syncTakes, { signal: controller.signal });
+  const observer = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; syncTakes(); }, { threshold: 0.25 });
+  observer.observe(carousel);
   const updateMotion = () => {
     if (motionPreference.matches) entered = true;
     refreshLayout();
@@ -256,6 +294,8 @@ export function init(root: HTMLElement): () => void {
   motionPreference.addEventListener('change', updateMotion);
   return () => {
     controller.abort();
+    observer.disconnect();
+    slots.forEach(slot => stopTake(slot.cover));
     motionPreference.removeEventListener('change', updateMotion);
     trigger.kill();
     timeline?.kill();

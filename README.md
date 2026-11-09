@@ -43,7 +43,15 @@ Os textos de apresentação ficam em hero.ts; métricas e seus avisos em results
 
 Os dados entre colchetes são pendentes do Figma e precisam de conferência antes de uso público. Instagram e TikTok têm estruturas independentes. Totais do período, medianas habituais e resultados acumulados de publicações devem continuar separados.
 
-As três capas são provisórias. Ao definir as publicações finais, atualize capa, texto, resultado, datas e videoUrl juntos em featuredContent. Sem URL, o modal informa a pendência. Um link de publicação social abre a fonte original; um arquivo MP4/WebM pode usar o player nativo. Não associe resultados de um post à imagem de outro.
+## Vídeos
+
+Os Reels usados no site estão listados em src/shared/videos.ts, com a descrição de cada um, a data de publicação e a duração do take. O hero mostra cinco deles, na ordem de heroReels. A seção Conteúdo mostra todos, na ordem de contentReels.
+
+Cada vídeo tem quatro arquivos em public/videos: a capa estática (`-thumb.webp`), usada nos itens inativos; o take curto e mudo (`-take.webm` e `-take.mp4`), que toca no item ativo; e o vídeo completo em WebM, aberto no modal com um link para a publicação no Instagram. Com movimento reduzido, os takes não tocam e a capa permanece.
+
+Os arquivos são gerados por scripts/build-videos.sh a partir dos downloads originais em videos-instagram/, que fica fora do Git. Para mudar um trecho, altere os tempos no início do script e a duração correspondente em videos.ts, e rode `bash scripts/build-videos.sh --takes-only`. O script precisa do ffmpeg com libvpx, libopus, libx264 e libwebp.
+
+Os textos dos cards da seção Conteúdo ficam em content.ts. Os resultados vêm de prints-posts-selecionados/metricas.md e são acumulados desde a publicação até a data de consulta, que aparece no card. Ao atualizar as métricas, troque os números e a data de consulta juntos e mantenha cada resultado associado ao vídeo da mesma publicação.
 
 O Figma atual informa cinco anos de experiência, preservados no hero. A apresentação histórica registrada em AGENTS.md informava quatro.
 
