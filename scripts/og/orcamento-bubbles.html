@@ -1,0 +1,37 @@
+<!doctype html>
+<!--
+  Imagem de compartilhamento do orçamento (1200 × 630). Não entra no build.
+  Segue o frame "ogimage" (1:151) da página Identidade no Figma, que gera public/og-image.png.
+  Com `npm run dev`, abra /scripts/og/orcamento-bubbles.html, capture 1200 × 630 e salve
+  em public/og-orcamento-bubbles.png. dotinha-logo@2x.png é a exportação do grupo 1:152.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { display: grid; place-items: center; width: 1200px; height: 630px; overflow: hidden; background: #ffffeb; font-family: 'DM Sans', sans-serif; }
+  .og { display: flex; flex-direction: column; align-items: center; gap: 44px; }
+  .brands { display: flex; align-items: center; gap: 48px; }
+  .dotinha { width: 430px; height: auto; }
+  .plus { font-size: 56px; font-weight: 500; color: #c27484; }
+  .bubbles { width: 330px; height: auto; margin-top: 70px; }
+  .caption { color: #c27484; font-size: 28px; font-weight: 500; letter-spacing: .32em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<div class="og">
+  <div class="brands">
+    <img class="dotinha" src="./dotinha-logo@2x.png" alt="" />
+    <span class="plus">+</span>
+    <img class="bubbles" src="/assets/bubbles-logo.svg" alt="" />
+  </div>
+  <p class="caption">Proposta de parceria</p>
+</div>
+<script type="module">
+  await document.fonts.ready;
+  document.body.dataset.ready = 'true';
+</script>
+</body>
+</html>
